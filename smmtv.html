@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SMTTV (Hecho Por Salvador Mompó Tardito)</title>
+<link href="https://vjs.zencdn.net/7.21.1/video-js.css" rel="stylesheet" />
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Inter,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial;}
+body{background:#0b1b2b;color:#fff;overflow-x:hidden;}
+.site{max-width:1300px;margin:0 auto;padding:12px;}
+
+header{display:flex;justify-content:space-between;align-items:center;padding:14px 18px;background:#091625;border-radius:10px;margin-bottom:18px;}
+header .logo{font-weight:700;font-size:22px;color:#06f;}
+header nav a{margin-left:16px;color:#fff;text-decoration:none;font-weight:500;}
+header .actions button{margin-left:8px;padding:6px 12px;border-radius:6px;border:none;cursor:pointer;}
+header .actions .primary{background:#0063f7;color:#fff;}
+
+.section{margin-top:24px;}
+.section h3{margin-bottom:12px;font-size:20px;}
+.row-cards{display:flex;gap:12px;overflow-x:auto;padding-bottom:8px;}
+
+.match-card{
+    background:linear-gradient(180deg,#112b44,#061018);
+    border-radius:12px;padding:12px;min-width:220px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.5);
+    cursor:pointer;display:flex;flex-direction:column;align-items:center;
+}
+.match-card img{width:130px;margin-bottom:10px;filter:drop-shadow(0 0 4px #000);}
+.match-card .name{font-weight:700;font-size:16px;text-align:center;}
+.match-card .details{font-size:13px;opacity:0.75;}
+
+.player-container{width:100%;margin-top:24px;display:flex;justify-content:center;}
+.video-js{width:100%!important;max-width:1100px;height:600px!important;border-radius:10px;}
+</style>
+</head>
+<body>
+
+<div class="site">
+
+<header>
+<div class="logo">TV Live</div>
+<nav>
+<a href="#">Próximos</a>
+<a href="#">En vivo</a>
+<a href="#">Resultados</a>
+<a href="#">Calendario</a>
+</nav>
+<div class="actions">
+<button>Buscar</button>
+<button class="primary">Mi cuenta</button>
+</div>
+</header>
+
+<!-- ========================= -->
+<!-- SECCIÓN CANALES EN VIVO -->
+<!-- ========================= -->
+<section class="section">
+<h3>Canales en vivo</h3>
+<div class="row-cards">
+
+<div class="match-card" onclick="setStream('tyc');scrollPlayer();">
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/54/TyC_Sports_logo.svg">
+<div class="details">En vivo</div>
+</div>
+
+<div class="match-card" onclick="setStream('dsports');scrollPlayer();">
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/DSports.png?20221114223321">
+<div class="details">En vivo</div>
+</div>
+
+<div class="match-card" onclick="setStream('tnt');scrollPlayer();">
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/TNT_Sports_Premium_%28Argentina%29.png?20250201035541">
+<div class="details">En vivo</div>
+</div>
+
+<div class="match-card" onclick="setStream('fox');scrollPlayer();">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Fox_Sports_Argentina_2023.svg/500px-Fox_Sports_Argentina_2023.svg.png?20230208172702">
+<div class="details">En vivo</div>
+</div>
+
+<div class="match-card" onclick="setStream('espnpremium');scrollPlayer();">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/ESPN_Premium_logo.svg/1280px-ESPN_Premium_logo.svg.png?20220502034424">
+<div class="details">En vivo</div>
+</div>
+
+</div>
+</section>
+
+<!-- ========================= -->
+<!-- SECCIÓN PARTIDOS EN VIVO -->
+<!-- ========================= -->
+<section class="section">
+<h3>Partidos en vivo</h3>
+<div class="row-cards">
+
+<div class="match-card" onclick="setStream('tnt');scrollPlayer();">
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/TNT_Sports_Premium_%28Argentina%29.png?20250201035541" style="width:120px;">
+<div class="name">Boca vs River</div>
+<div class="details">Liga Profesional — 21:00 · TNT Sports</div>
+</div>
+
+<div class="match-card" onclick="setStream('fox');scrollPlayer();">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Fox_Sports_Argentina_2023.svg/500px-Fox_Sports_Argentina_2023.svg.png" style="width:120px;">
+<div class="name">San Lorenzo vs Racing</div>
+<div class="details">Copa LPF — 19:00 · Fox Sports</div>
+</div>
+
+<div class="match-card" onclick="setStream('dsports');scrollPlayer();">
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/DSports.png?20221114223321" style="width:120px;">
+<div class="name">Inter Miami vs Atlanta</div>
+<div class="details">MLS — 22:30 · DSports</div>
+</div>
+
+<div class="match-card" onclick="setStream('tyc');scrollPlayer();">
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/54/TyC_Sports_logo.svg" style="width:120px;">
+<div class="name">Belgrano vs Instituto</div>
+<div class="details">Amistoso — 18:00 · TyC Sports</div>
+</div>
+
+</div>
+</section>
+
+<div class="player-container" id="playerSection">
+<video id="mainPlayer" class="video-js vjs-default-skin" controls preload="auto" playsinline muted></video>
+</div>
+
+</div>
+
+<script src="https://vjs.zencdn.net/7.21.1/video.min.js"></script>
+<script>
+var streams = {
+  tyc: "https://lcrj3.envivoslatam.org/hotflix/tycsports/index.m3u8?token=5debd8237362d68de53b3323ea3013b1fbef3e30-2f-1768898858-1768844858&ip=190.175.32.169",
+  dsports: "https://smjt9q.envivoslatam.org/hotflix/dsports/index.m3u8?token=225aa8606045d5884a8f5a4e0347b4b53067d162-11-1768899134-1768845134&ip=190.175.32.169",
+  tnt: "https://mze7u.envivoslatam.org/hotflix/tntsports/index.m3u8?token=2cceafff70821aad425f165c50f486aa887e9e9d-05-1768899238-1768845238&ip=190.175.32.169",
+  fox: "https://smjt9q.envivoslatam.org/hotflix/foxsports/index.m3u8?token=bfc8bdf5cd257c11d0cd980c50f4a892c79eaf53-28-1768899975-1768845975&ip=190.175.32.169",
+  espnpremium: "https://vg7ie.envivoslatam.org/hotflix/espnpremium/index.m3u8?token=c38a37c6ddd5904d1d129645449de127016325b8-4a-1768899512-1768845512&ip=190.175.32.169"
+};
+
+var player = videojs("mainPlayer", {
+  autoplay: true,
+  liveui: true
+});
+
+function setStream(key){
+  player.src({ src: streams[key], type: "application/x-mpegURL" });
+  player.play();
+}
+
+function scrollPlayer(){
+  document.getElementById("playerSection").scrollIntoView({behavior:"smooth"});
+}
+
+setStream("tyc");
+</script>
+
+</body>
+</html>
