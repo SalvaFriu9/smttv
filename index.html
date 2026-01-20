@@ -97,7 +97,9 @@ var streams = {
   espn5: "https://smjt9q.envivoslatam.org/hotflix/espn5/index.m3u8?token=66130bd0638c176a6a260f1c7b35a13141456bdf-19-1768984736-1768930736&ip=190.175.32.169",
   espn6: "https://yce5o.envivoslatam.org/hotflix/espn6/index.m3u8?token=68812f7330e1b6511be09b3a75b5d6a01ae16233-9c-1768985102-1768931102&ip=190.175.32.169",
   espn7: "https://lcrj3.envivoslatam.org/hotflix/espn7/index.m3u8?token=d3b8321a1644404313594a9549f7731161067da2-ab-1768985043-1768931043&ip=190.175.32.169",
-  disneyplus: "https://rci1w.envivoslatam.org/hotflix/disney9/index.m3u8?token=5c00f146746e0c50e6577dd89b8e64554da40aa9-9a-1768979192-1768925192&ip=190.175.32.169"
+  disneyplus: "https://rci1w.envivoslatam.org/hotflix/disney9/index.m3u8?token=5c00f146746e0c50e6577dd89b8e64554da40aa9-9a-1768979192-1768925192&ip=190.175.32.169",
+  disney8: "https://xky9q.envivoslatam.org/hotflix/disney8/index.m3u8?token=baad88031e15355349db5ff58ee60768901ceb8c-8c-1768987871-1768933871&ip=190.175.32.169",
+  tntsportschile: "https://lcrj3.envivoslatam.org/hotflix/tntsportschile/index.m3u8?token=52d7cd5f97c1d16ebe3c3b11afbf33fe58f66546-46-1768987931-1768933931&ip=190.175.32.169"
 };
 
 // Array de canales
@@ -108,11 +110,12 @@ var canales = [
   {key:"fox", nombre:"Fox Sports", logo:"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Fox_Sports_Argentina_2023.svg/500px-Fox_Sports_Argentina_2023.svg.png"},
   {key:"espnpremium", nombre:"ESPN Premium", logo:"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/ESPN_Premium_logo.svg/1280px-ESPN_Premium_logo.svg.png"},
   {key:"espn1", nombre:"ESPN1", logo:"https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/ESPN_logo.png/1272px-ESPN_logo.png?20251024214629"},
-  {key:"disneyplus", nombre:"Disney+", logo:"https://upload.wikimedia.org/wikipedia/commons/3/3e/Disney%2B_logo.svg"}
+  {key:"disneyplus", nombre:"Disney+", logo:"https://upload.wikimedia.org/wikipedia/commons/3/3e/Disney%2B_Logo.svg"}
 ];
 
 // Array de partidos
 var partidos = [
+  {liga:"Champions League", local:"F.K. Bodø/Glimt", visitante:"Manchester City", hora:"14:45", canal:"espn1", logo:"https://upload.wikimedia.org/wikipedia/commons/e/e2/UEFA_Champions_League_logo.png"},
   {liga:"Champions League", local:"Real Madrid", visitante:"Monaco", hora:"17:00", canal:"espn1", logo:"https://upload.wikimedia.org/wikipedia/commons/e/e2/UEFA_Champions_League_logo.png"},
   {liga:"Champions League", local:"Sporting CP", visitante:"PSG", hora:"17:00", canal:"espn5", logo:"https://upload.wikimedia.org/wikipedia/commons/e/e2/UEFA_Champions_League_logo.png"},
   {liga:"Champions League", local:"Tottenham Hotspur", visitante:"Borussia Dortmund", hora:"17:00", canal:"espn3", logo:"https://upload.wikimedia.org/wikipedia/commons/e/e2/UEFA_Champions_League_logo.png"},
@@ -121,12 +124,10 @@ var partidos = [
   {liga:"Champions League", local:"Olympiakos Piraeus", visitante:"Bayer Leverkusen", hora:"17:00", canal:"espn4", logo:"https://upload.wikimedia.org/wikipedia/commons/e/e2/UEFA_Champions_League_logo.png"},
   {liga:"Champions League", local:"København", visitante:"Napoli", hora:"17:00", canal:"espn6", logo:"https://upload.wikimedia.org/wikipedia/commons/e/e2/UEFA_Champions_League_logo.png"},
   
-  {liga:"Championship", local:"Wrexham", visitante:"Leicester City", hora:"17:00", canal:"dsports", logo:"https://upload.wikimedia.org/wikipedia/commons/3/3b/EFL_Championship_Logo.png"},
-  {liga:"Supercopa de Chile", local:"Huachipato", visitante:"Universidad Católica", hora:"19:00", canal:"tyc", logo:"https://upload.wikimedia.org/wikipedia/commons/1/1e/Supercopa_de_Chile_logo.png"},
-  {liga:"Serie Río de la Plata", local:"Miramar Misiones", visitante:"Colón", hora:"20:00", canal:"tyc", logo:"https://upload.wikimedia.org/wikipedia/commons/5/54/TyC_Sports_logo.svg"},
-  {liga:"Serie Río de la Plata", local:"Deportes Concepción", visitante:"Cerro Largo", hora:"22:00", canal:"tyc", logo:"https://upload.wikimedia.org/wikipedia/commons/5/54/TyC_Sports_logo.svg"},
-  {liga:"Liga Nacional", local:"Xelajú", visitante:"Aurora", hora:"23:00", canal:"disneyplus", logo:"https://upload.wikimedia.org/wikipedia/commons/3/3e/Disney%2B_Logo.svg"},
-  {liga:"Primera División", local:"Herediano", visitante:"Guadalupe", hora:"23:00", canal:"disneyplus", logo:"https://upload.wikimedia.org/wikipedia/commons/3/3e/Disney%2B_Logo.svg"}
+  {liga:"Championship", local:"Wrexham", visitante:"Leicester City", hora:"17:00", canal:"disney8", logo:"https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/EFL_Championship_Logo.svg/960px-EFL_Championship_Logo.svg.png"},
+  {liga:"Supercopa de Chile", local:"Huachipato", visitante:"Universidad Católica", hora:"19:00", canal:"tntsportschile", logo:"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJvDBvJMXwk3O1Ei5PLwYeHSmGioWo9ok50eG9PLRNOOMFUmU0xBpmYj79KAD5QMRQw-PRIoil_0e76htxEhnbacRfNNaHuoIcYaeyYGzRCCZJBItqTaDuHSGKuzjZklMvCV3ipdLa5lnRrjAAi03MndCrLN4pyDo10SQ-_nuy3K8l_L7P2TZzivOxVDk/s16000/Supercopa%20Construmart.png"},
+  {liga:"Serie Río de la Plata", local:"Miramar Misiones", visitante:"Colón", hora:"20:00", canal:"espnpremium", logo:"https://i.imgur.com/mpW7IqU.png"},
+  {liga:"Serie Río de la Plata", local:"Deportes Concepción", visitante:"Cerro Largo", hora:"22:00", canal:"espnpremium", logo:"https://i.imgur.com/mpW7IqU.png"},
 ];
 
 // =========================
