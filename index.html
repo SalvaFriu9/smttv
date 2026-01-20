@@ -85,11 +85,6 @@ header .actions .primary{background:#0063f7;color:#fff;}
 <div class="details">En vivo</div>
 </div>
 
-<div class="match-card" onclick="setStream('espn1');scrollPlayer();">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/ESPN_logo.png/1272px-ESPN_logo.png?20251024214629">
-<div class="details">En vivo</div>
-</div>
-
 </div>
 </section>
 
@@ -100,7 +95,7 @@ header .actions .primary{background:#0063f7;color:#fff;}
 <h3>Partidos en vivo</h3>
 <div class="row-cards">
 
-<div class="match-card" onclick="setStream('espn1');scrollPlayer();">
+<div class="match-card" onclick="setStream('espnpremium');scrollPlayer();">
 <img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/UEFA_Champions_League_logo.png?20240503072911" style="width:120px;">
 <div class="name">Kairat Almaty vs Club Brujas</div>
 <div class="details">Champions League — 12:30 · ESPN 1</div>
@@ -141,7 +136,6 @@ var streams = {
   tnt: "https://mze7u.envivoslatam.org/hotflix/tntsports/index.m3u8?token=2cceafff70821aad425f165c50f486aa887e9e9d-05-1768899238-1768845238&ip=190.175.32.169",
   fox: "https://smjt9q.envivoslatam.org/hotflix/foxsports/index.m3u8?token=bfc8bdf5cd257c11d0cd980c50f4a892c79eaf53-28-1768899975-1768845975&ip=190.175.32.169",
   espnpremium: "https://vg7ie.envivoslatam.org/hotflix/espnpremium/index.m3u8?token=c38a37c6ddd5904d1d129645449de127016325b8-4a-1768899512-1768845512&ip=190.175.32.169"
-  espn1: "https://iaw5b.envivoslatam.org/hotflix/espn/index.m3u8?token=610c6ab4fbfa96b2d1a433875c576df2639f16e5-f2-1768967266-1768913266&ip=169.197.85.171"
 };
 
 var player = videojs("mainPlayer", {
@@ -163,6 +157,7 @@ setStream("tyc");
 
 </body>
 </html>
+
 
 
 
