@@ -19,7 +19,7 @@ header .actions .primary{background:#0063f7;color:#fff;}
 
 .section{margin-top:24px;}
 .section h3{margin-bottom:12px;font-size:20px;}
-.row-cards{display:flex;gap:12px;overflow-x:auto;padding-bottom:8px;}
+.row-cards{display:flex;gap:12px;overflow-x:auto;padding-bottom:8px;-webkit-overflow-scrolling:touch;}
 
 .match-card{
     background:linear-gradient(180deg,#112b44,#061018);
@@ -33,6 +33,10 @@ header .actions .primary{background:#0063f7;color:#fff;}
 
 .player-container{width:100%;margin-top:24px;display:flex;justify-content:center;}
 .video-js{width:100%!important;max-width:1100px;height:600px!important;border-radius:10px;}
+
+@media(max-width:768px){
+  .video-js { height:300px !important; }
+}
 </style>
 </head>
 <body>
@@ -61,27 +65,32 @@ header .actions .primary{background:#0063f7;color:#fff;}
 <div class="row-cards">
 
 <div class="match-card" onclick="setStream('tyc');scrollPlayer();">
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/54/TyC_Sports_logo.svg">
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/54/TyC_Sports_logo.svg" alt="TyC Sports">
 <div class="details">En vivo</div>
 </div>
 
 <div class="match-card" onclick="setStream('dsports');scrollPlayer();">
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/DSports.png?20221114223321">
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/DSports.png?20221114223321" alt="DSports">
 <div class="details">En vivo</div>
 </div>
 
 <div class="match-card" onclick="setStream('tnt');scrollPlayer();">
-<img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/TNT_Sports_Premium_%28Argentina%29.png?20250201035541">
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/TNT_Sports_Premium_%28Argentina%29.png" alt="TNT Sports">
 <div class="details">En vivo</div>
 </div>
 
 <div class="match-card" onclick="setStream('fox');scrollPlayer();">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Fox_Sports_Argentina_2023.svg/500px-Fox_Sports_Argentina_2023.svg.png?20230208172702">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Fox_Sports_Argentina_2023.svg/500px-Fox_Sports_Argentina_2023.svg.png" alt="Fox Sports">
 <div class="details">En vivo</div>
 </div>
 
 <div class="match-card" onclick="setStream('espnpremium');scrollPlayer();">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/ESPN_Premium_logo.svg/1280px-ESPN_Premium_logo.svg.png?20220502034424">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/ESPN_Premium_logo.svg/1280px-ESPN_Premium_logo.svg.png" alt="ESPN Premium">
+<div class="details">En vivo</div>
+</div>
+
+<div class="match-card" onclick="setStream('espn1');scrollPlayer();">
+<img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/ESPN_logo.svg" alt="ESPN1">
 <div class="details">En vivo</div>
 </div>
 
@@ -96,25 +105,25 @@ header .actions .primary{background:#0063f7;color:#fff;}
 <div class="row-cards">
 
 <div class="match-card" onclick="setStream('fox');scrollPlayer();">
-<img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/UEFA_Champions_League_logo.png?20240503072911" style="width:120px;">
+<img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/UEFA_Champions_League_logo.png" style="width:120px;" alt="Champions League">
 <div class="name">Kairat Almaty vs Club Brujas</div>
 <div class="details">Champions League — 12:30 · FOX Sports</div>
 </div>
 
 <div class="match-card" onclick="setStream('tyc');scrollPlayer();">
-<img src="https://upload.wikimedia.org/wikipedia/en/a/aa/Copa_argentina_logo22.png" style="width:120px;">
+<img src="https://upload.wikimedia.org/wikipedia/en/a/aa/Copa_argentina_logo22.png" style="width:120px;" alt="Copa Argentina">
 <div class="name">Estudiantes de la Plata vs Ituzaingó</div>
 <div class="details">Copa Argentina — 21:00 · TyC Sports</div>
 </div>
 
 <div class="match-card" onclick="setStream('dsports');scrollPlayer();">
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/DSports.png?20221114223321" style="width:120px;">
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/DSports.png" style="width:120px;" alt="DSports">
 <div class="name">Inter Miami vs Atlanta</div>
 <div class="details">MLS — 22:30 · DSports</div>
 </div>
 
 <div class="match-card" onclick="setStream('tyc');scrollPlayer();">
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/54/TyC_Sports_logo.svg" style="width:120px;">
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/54/TyC_Sports_logo.svg" style="width:120px;" alt="TyC Sports">
 <div class="name">Belgrano vs Instituto</div>
 <div class="details">Amistoso — 18:00 · TyC Sports</div>
 </div>
@@ -135,7 +144,8 @@ var streams = {
   dsports: "https://wf6kt.envivoslatam.org/hotflix/dsports/index.m3u8?token=f051f7e553452baeb9d2bdd9339dadd9e76f3c0b-4f-1768968925-1768914925&ip=103.108.230.51",
   tnt: "https://mze7u.envivoslatam.org/hotflix/tntsports/index.m3u8?token=bda516f4cfa61046c2c87324b1188eb9b306570d-fc-1768968947-1768914947&ip=103.108.230.51",
   fox: "https://rci1w.envivoslatam.org/hotflix/foxsports/index.m3u8?token=a851682f54a98b90ed2d70ff91c1fdd3ed627b82-59-1768975576-1768921576&ip=190.175.32.169",
-  espnpremium: "https://ub2dr.envivoslatam.org/hotflix/espnpremium/index.m3u8?token=c9b8402f30c7f7881cff3cbfc3c6d0c3e645c7c7-5f-1768969011-1768915011&ip=103.108.230.51"
+  espnpremium: "https://ub2dr.envivoslatam.org/hotflix/espnpremium/index.m3u8?token=c9b8402f30c7f7881cff3cbfc3c6d0c3e645c7c7-5f-1768969011-1768915011&ip=103.108.230.51",
+  espn1: "https://smjt9q.envivoslatam.org/hotflix/espn/index.m3u8?token=bd23113350f8f7909f4e6e16e378b8c5c0cacc04-c1-1768976676-1768922676&ip=190.175.32.169"
 };
 
 var player = videojs("mainPlayer", {
@@ -152,13 +162,12 @@ function scrollPlayer(){
   document.getElementById("playerSection").scrollIntoView({behavior:"smooth"});
 }
 
+// Inicializa con TyC Sports
 setStream("tyc");
 </script>
 
 </body>
 </html>
-
-
 
 
 
