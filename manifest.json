@@ -1,7 +1,7 @@
 {
   "name": "SMTTV",
   "short_name": "SMTTV",
-  "start_url": "/smttv/",
+  "start_url": "/",
   "display": "standalone",
   "background_color": "#0b1b2b",
   "theme_color": "#0b1b2b",
@@ -18,3 +18,4 @@
     }
   ]
 }
+
