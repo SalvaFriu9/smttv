@@ -33,13 +33,13 @@
   ],
   "partidos": [
     {
-      "liga": "Campeonato Carioca",
-      "local": "Flamengo",
-      "visitante": "Vasco da Gama",
-      "hora": "21:30",
-      "canal": "sporttvbr1",
-      "logo": "https://i.imgur.com/s3ZYvRm.png",
-      "url": "https://pvtn5y.envivoslatam.org/hotflix/sporttvbr1/index.m3u8?token=64f195048c45a6a1b2f9256c5569732dd6fee06f-80-1769087913-1769033913&ip=190.175.10.14"
+      "liga": "Campeonato Mineiro",
+      "local": "Cruzeiro",
+      "visitante": "Democrata GV",
+      "hora": "18:30",
+      "canal": "premiere1",
+      "logo": "https://a3.espncdn.com/combiner/i?img=%2Fi%2Fleaguelogos%2Fsoccer%2F500%2F2360.png",
+      "url": "https://ng0pr.envivoslatam.org/hotflix/premiere1/index.m3u8?token=89ad880c62ed63b1639a926465fac36539804804-cc-1769163321-1769109321&ip=190.175.10.14"
     },
     {
       "liga": "Serie Río de la Plata",
@@ -61,6 +61,7 @@
     }
   ]
 }
+
 
 
 
