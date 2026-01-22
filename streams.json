@@ -1,0 +1,63 @@
+{
+  "canales": [
+    {
+      "key": "tyc",
+      "nombre": "TyC Sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/5/54/TyC_Sports_logo.svg",
+      "url": "https://ub2dr.envivoslatam.org/hotflix/tycsports/index.m3u8?token=ed3cebd4fbfa1e3172e632a6b4c2be98be31201e-89-1769087052-1769033052&ip=190.175.10.14"
+    },
+    {
+      "key": "dsports",
+      "nombre": "DSports",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/5/5a/DSports.png",
+      "url": "https://xky9q.envivoslatam.org/hotflix/dsports/index.m3u8?token=26384f397929e609012b750febbf2f4bc82f3cf1-ed-1769087158-1769033158&ip=190.175.10.14"
+    },
+    {
+      "key": "tnt",
+      "nombre": "TNT Sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/f/f4/TNT_Sports_Premium_%28Argentina%29.png",
+      "url": "https://tk0hz.envivoslatam.org/hotflix/tntsports/index.m3u8?token=19347a96908a5dcaaeb2627ad29d092c49d9544d-39-1769087184-1769033184&ip=190.175.10.14"
+    },
+    {
+      "key": "fox",
+      "nombre": "Fox Sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Fox_Sports_Argentina_2023.svg/500px-Fox_Sports_Argentina_2023.svg.png",
+      "url": "https://kh5vy.envivoslatam.org/hotflix/foxsports/index.m3u8?token=210bc153eecbcfbcd3f829343af3a2683346cd73-55-1769087212-1769033212&ip=190.175.10.14"
+    },
+    {
+      "key": "espnpremium",
+      "nombre": "ESPN Premium",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/ESPN_Premium_logo.svg",
+      "url": "https://yce5o.envivoslatam.org/hotflix/espnpremium/index.m3u8?token=539a34b97070d5ff1d8e201bf7c0454fd3ca96e4-de-1769087259-1769033259&ip=190.175.10.14"
+    }
+  ],
+  "partidos": [
+    {
+      "liga": "Campeonato Carioca",
+      "local": "Flamengo",
+      "visitante": "Vasco da Gama",
+      "hora": "21:30",
+      "canal": "sporttvbr1",
+      "logo": "https://i.imgur.com/s3ZYvRm.png",
+      "url": "https://pvtn5y.envivoslatam.org/hotflix/sporttvbr1/index.m3u8?token=64f195048c45a6a1b2f9256c5569732dd6fee06f-80-1769087913-1769033913&ip=190.175.10.14"
+    },
+    {
+      "liga": "Serie Río de la Plata",
+      "local": "Colo-Colo",
+      "visitante": "Peñarol",
+      "hora": "21:00",
+      "canal": "espnpremium",
+      "logo": "https://i.imgur.com/mpW7IqU.png",
+      "url": "https://yce5o.envivoslatam.org/hotflix/espnpremium/index.m3u8?token=539a34b97070d5ff1d8e201bf7c0454fd3ca96e4-de-1769087259-1769033259&ip=190.175.10.14"
+    },
+    {
+      "liga": "Copa Argentina",
+      "local": "Argentinos Juniors",
+      "visitante": "Midland",
+      "hora": "21:15",
+      "canal": "tyc",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Copa_argentina_logo22.png/250px-Copa_argentina_logo22.png",
+      "url": "https://ub2dr.envivoslatam.org/hotflix/tycsports/index.m3u8?token=ed3cebd4fbfa1e3172e632a6b4c2be98be31201e-89-1769087052-1769033052&ip=190.175.10.14"
+    }
+  ]
+}
