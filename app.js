@@ -1,81 +1,80 @@
-// URL del JSON remoto (lo actualizás en tu servidor sin tocar la APK)
+// URL del JSON remoto (lo actualizás en GitHub y la APK lo toma al vuelo)
 const STREAMS_URL = "https://raw.githubusercontent.com/SalvaFriu9/smttv/main/streams.json";
 
 // Guardamos la instancia del player
 let player = null;
 
-// Inicializamos Video.js cuando esté el DOM
-document.addEventListener("DOMContentLoaded", () => {
-  iniciarPlayer();
-  cargarStreams();
+// Esperamos a que Cordova esté listo
+document.addEventListener("deviceready", () => {
+    console.log("Cordova listo 😎");
+
+    iniciarPlayer();
+    cargarStreams();
 });
 
+// Inicializa Video.js
 function iniciarPlayer() {
-  player = videojs('player', {
-    autoplay: true,
-    controls: true,
-    preload: 'auto'
-  });
+    player = videojs('player', {
+        autoplay: true,
+        controls: true,
+        preload: 'auto',
+        liveui: true
+    });
 
-  console.log("Video.js listo bro");
+    console.log("Video.js listo bro 🥀");
 }
 
 // Cargar lista de streams desde servidor
 async function cargarStreams() {
-  try {
-    console.log("Cargando streams...");
+    try {
+        console.log("Cargando streams...");
 
-    const response = await fetch(STREAMS_URL, {
-      cache: "no-store" // evita cache y siempre trae actualizado
-    });
+        const response = await fetch(STREAMS_URL, { cache: "no-store" });
+        if (!response.ok) throw new Error("No se pudo obtener streams.json");
 
-    if (!response.ok) {
-      throw new Error("No se pudo obtener streams.json");
+        const data = await response.json();
+        generarTarjetas(data);
+
+    } catch (err) {
+        console.error("Error cargando streams:", err);
     }
-
-    const data = await response.json();
-    generarBotones(data);
-
-  } catch (err) {
-    console.error("Error cargando streams:", err);
-  }
 }
 
-// Genera los botones dinámicos
-function generarBotones(streams) {
-  const contenedor = document.getElementById("canales");
-  
-  if (!contenedor) {
-    console.warn("No existe contenedor #canales en el HTML");
-    return;
-  }
+// Genera las tarjetas dinámicas de canales
+function generarTarjetas(streams) {
+    const contenedor = document.getElementById("canalesContainer");
+    if (!contenedor) return console.warn("No existe contenedor #canalesContainer");
 
-  contenedor.innerHTML = ""; // limpia por si actualiza
+    contenedor.innerHTML = ""; // limpia por si actualiza
 
-  Object.keys(streams).forEach(nombre => {
-    const url = streams[nombre];
+    Object.keys(streams).forEach(nombre => {
+        const url = streams[nombre];
 
-    let btn = document.createElement("button");
-    btn.textContent = nombre;
-    btn.style.margin = "5px";
-    btn.onclick = () => setStream(url);
+        const div = document.createElement("div");
+        div.className = "match-card";
+        div.onclick = () => setStream(url);
 
-    contenedor.appendChild(btn);
-  });
+        div.innerHTML = `
+            <div class="name">${nombre}</div>
+            <div class="details">En vivo</div>
+        `;
 
-  console.log("Streams cargados correctamente");
+        contenedor.appendChild(div);
+    });
+
+    console.log("Streams cargados correctamente");
 }
 
 // Cambia el stream del player
 function setStream(url) {
-  if (!player) return;
+    if (!player) return;
 
-  console.log("Cambiando a:", url);
+    console.log("Cambiando a:", url);
 
-  player.src({
-    src: url,
-    type: "application/x-mpegURL"
-  });
+    player.src({
+        src: url,
+        type: "application/x-mpegURL"
+    });
 
-  player.play();
+    player.play();
 }
