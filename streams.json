@@ -42,25 +42,26 @@
       "url": "https://ng0pr.envivoslatam.org/hotflix/premiere1/index.m3u8?token=89ad880c62ed63b1639a926465fac36539804804-cc-1769163321-1769109321&ip=190.175.10.14"
     },
     {
-      "liga": "Serie Río de la Plata",
-      "local": "Colo-Colo",
-      "visitante": "Peñarol",
-      "hora": "21:00",
-      "canal": "espnpremium",
-      "logo": "https://i.imgur.com/mpW7IqU.png",
-      "url": "https://yce5o.envivoslatam.org/hotflix/espnpremium/index.m3u8?token=539a34b97070d5ff1d8e201bf7c0454fd3ca96e4-de-1769087259-1769033259&ip=190.175.10.14"
+      "liga": "Campeonato Carioca",
+      "local": "Boavista",
+      "visitante": "Portuguesa RJ",
+      "hora": "19:00",
+      "canal": "premiere2",
+      "logo": "https://i.imgur.com/s3ZYvRm.png",
+      "url": "https://ub2dr.envivoslatam.org/hotflix/premiere2/index.m3u8?token=8ea87c5a79f65ea1d0944bb95a701d7dda8d07fb-23-1769165560-1769111560&ip=190.175.10.14"
     },
     {
-      "liga": "Copa Argentina",
-      "local": "Argentinos Juniors",
-      "visitante": "Midland",
-      "hora": "21:15",
-      "canal": "tyc",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Copa_argentina_logo22.png/250px-Copa_argentina_logo22.png",
-      "url": "https://ub2dr.envivoslatam.org/hotflix/tycsports/index.m3u8?token=ed3cebd4fbfa1e3172e632a6b4c2be98be31201e-89-1769087052-1769033052&ip=190.175.10.14"
+      "liga": "Campeonato Gaucho",
+      "local": "Juventude",
+      "visitante": "Caixas",
+      "hora": "19:00",
+      "canal": "premiere3",
+      "logo": "https://tmssl.akamaized.net//images/logo/header/brrs.png?lm=1736968666",
+      "url": "https://kh5vy.envivoslatam.org/hotflix/premiere3/index.m3u8?token=f9d769d67dda287a5a4af6fe6d2c7b5ac8e59907-47-1769165797-1769111797&ip=190.175.10.14"
     }
   ]
 }
+
 
 
 
