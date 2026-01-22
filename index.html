@@ -4,29 +4,28 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>SMTTV (Hecho Por Salvador Mompó Tardito)</title>
+
+<!-- VideoJS -->
 <link href="https://vjs.zencdn.net/7.21.1/video-js.css" rel="stylesheet" />
 
-<!-- PASO 4: vincular el manifest -->
+<!-- Manifest PWA -->
 <link rel="manifest" href="manifest.json">
 
-<!-- PASO 5: meta para android/chrome -->
+<!-- Tema para Android -->
 <meta name="theme-color" content="#0b1b2b">
 
 <style>
 *{margin:0;padding:0;box-sizing:border-box;font-family:Inter,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial;}
 body{background:#0b1b2b;color:#fff;overflow-x:hidden;}
 .site{max-width:1300px;margin:0 auto;padding:12px;}
-
 header{display:flex;justify-content:space-between;align-items:center;padding:14px 18px;background:#091625;border-radius:10px;margin-bottom:18px;}
 header .logo{font-weight:700;font-size:22px;color:#06f;}
 header nav a{margin-left:16px;color:#fff;text-decoration:none;font-weight:500;}
 header .actions button{margin-left:8px;padding:6px 12px;border-radius:6px;border:none;cursor:pointer;}
 header .actions .primary{background:#0063f7;color:#fff;}
-
 .section{margin-top:24px;}
 .section h3{margin-bottom:12px;font-size:20px;}
 .row-cards{display:flex;gap:12px;overflow-x:auto;padding-bottom:8px;-webkit-overflow-scrolling:touch;}
-
 .match-card{
     background:linear-gradient(180deg,#112b44,#061018);
     border-radius:12px;padding:12px;min-width:220px;
@@ -36,140 +35,55 @@ header .actions .primary{background:#0063f7;color:#fff;}
 .match-card img{width:130px;margin-bottom:10px;filter:drop-shadow(0 0 4px #000);}
 .match-card .name{font-weight:700;font-size:16px;text-align:center;}
 .match-card .details{font-size:13px;opacity:0.75;}
-
 .player-container{width:100%;margin-top:24px;display:flex;justify-content:center;}
 .video-js{width:100%!important;max-width:1100px;height:600px!important;border-radius:10px;}
-
 @media(max-width:768px){
   .video-js { height:300px !important; }
 }
 </style>
+
 </head>
 <body>
 
 <div class="site">
 
 <header>
-<div class="logo">SMTTV (Hecho por Salvador Mompó Tardito)</div>
-<nav>
-<a href="#">Próximos</a>
-<a href="#">En vivo</a>
-<a href="#">Resultados</a>
-<a href="#">Calendario</a>
-</nav>
-<div class="actions">
-<button>Buscar</button>
-<button class="primary">Mi cuenta</button>
-</div>
+  <div class="logo">SMTTV (Hecho por Salvador Mompó Tardito)</div>
+  <nav>
+    <a href="#">Próximos</a>
+    <a href="#">En vivo</a>
+    <a href="#">Resultados</a>
+    <a href="#">Calendario</a>
+  </nav>
+  <div class="actions">
+    <button>Buscar</button>
+    <button class="primary">Mi cuenta</button>
+  </div>
 </header>
 
-<!-- ========================= -->
-<!-- SECCIÓN CANALES EN VIVO -->
-<!-- ========================= -->
 <section class="section">
-<h3>Canales en vivo</h3>
-<div class="row-cards" id="canalesContainer"></div>
+  <h3>Canales en vivo</h3>
+  <div class="row-cards" id="canalesContainer"></div>
 </section>
 
-<!-- ========================= -->
-<!-- SECCIÓN PARTIDOS EN VIVO -->
-<!-- ========================= -->
 <section class="section">
-<h3>Partidos en vivo</h3>
-<div class="row-cards" id="partidosContainer"></div>
+  <h3>Partidos en vivo</h3>
+  <div class="row-cards" id="partidosContainer"></div>
 </section>
 
 <div class="player-container" id="playerSection">
-<video id="mainPlayer" class="video-js vjs-default-skin" controls preload="auto" playsinline muted></video>
+  <video id="mainPlayer" class="video-js vjs-default-skin" controls preload="auto" playsinline muted></video>
 </div>
 
 </div>
 
+<!-- VideoJS -->
 <script src="https://vjs.zencdn.net/7.21.1/video.min.js"></script>
-<script>
-// =========================
-// STREAMS Y CANALES
-// =========================
-var streams = {
-  tyc: "https://ub2dr.envivoslatam.org/hotflix/tycsports/index.m3u8?token=ed3cebd4fbfa1e3172e632a6b4c2be98be31201e-89-1769087052-1769033052&ip=190.175.10.14",
-  dsports: "https://tk0hz.envivoslatam.org/hotflix/dsports/index.m3u8?token=d65bf41b75dff2d3c9fef10acf8c7cf012763a0a-26-1769090096-1769036096&ip=190.175.10.14",
-  tnt: "https://vg7ie.envivoslatam.org/hotflix/tntsports/index.m3u8?token=35be13b25df513ca303a02f1017c8a07dd940158-71-1769090123-1769036123&ip=190.175.10.14",
-  fox: "https://kh5vy.envivoslatam.org/hotflix/foxsports/index.m3u8?token=210bc153eecbcfbcd3f829343af3a2683346cd73-55-1769087212-1769033212&ip=190.175.10.14",
-  espnpremium: "https://yce5o.envivoslatam.org/hotflix/espnpremium/index.m3u8?token=539a34b97070d5ff1d8e201bf7c0454fd3ca96e4-de-1769087259-1769033259&ip=190.175.10.14",
-  espn1: "https://smjt9q.envivoslatam.org/hotflix/espn/index.m3u8?token=bd23113350f8f7909f4e6e16e378b8c5c0cacc04-c1-1768976676-1768922676&ip=190.175.32.169",
-  espn2: "https://tk0hz.envivoslatam.org/hotflix/espn2/index.m3u8?token=149cbc039861383e192a6dfd55659082ee08cfd0-67-1769068835-1769014835&ip=190.175.32.169",
-  espn3: "https://kh5vy.envivoslatam.org/hotflix/espn3/index.m3u8?token=98ba11b4fffbe8d23d662c696289c308c3131e21-66-1769069005-1769015005&ip=190.175.32.169",
-  espn4: "https://xky9q.envivoslatam.org/hotflix/espn4/index.m3u8?token=f41dd7bee7b8b8e8bfe2c4be763a67d9671326f2-e1-1769069024-1769015024&ip=190.175.32.169",
-  espn5: "https://smjt9q.envivoslatam.org/hotflix/espn5/index.m3u8?token=66130bd0638c176a6a260f1c7b35a13141456bdf-19-1768984736-1768930736&ip=190.175.32.169",
-  espn6: "https://qbk4f.envivoslatam.org/hotflix/espn6/index.m3u8?token=aab88083781e7b433bc5f927f2e1b227849e9f7c-54-1769069106-1769015106&ip=190.175.32.169",
-  espn7: "https://lcrj3.envivoslatam.org/hotflix/espn7/index.m3u8?token=d3b8321a1644404313594a9549f7731161067da2-ab-1768985043-1768931043&ip=190.175.32.169",
-  fox2ar: "https://lcrj3.envivoslatam.org/hotflix/fox2ar/index.m3u8?token=5460483c6c508c6ee210fcfe1b0b0751d04cdefc-c9-1769069157-1769015157&ip=190.175.32.169",
-  disneyplus: "https://rci1w.envivoslatam.org/hotflix/disney9/index.m3u8?token=5c00f146746e0c50e6577dd89b8e64554da40aa9-9a-1768979192-1768925192&ip=190.175.32.169",
-  disney8: "https://xky9q.envivoslatam.org/hotflix/disney8/index.m3u8?token=b14fb532ddbcd03a81063edbbcb2e00aa8665e49-23-1769069179-1769015179&ip=190.175.32.169",
-  tntsportschile: "https://tk0hz.envivoslatam.org/hotflix/tntsportschile/index.m3u8?token=76ed9ef3950dfa8840d66078d3fbd765642f83d2-0e-1769069204-1769015204&ip=190.175.32.169",
-  premiere1: "https://ng0pr.envivoslatam.org/hotflix/premiere1/index.m3u8?token=c549435a1d47e993e64adb985f378715601174f5-0e-1769069221-1769015221&ip=190.175.32.169",
-  sporttvbr1: "https://pvtn5y.envivoslatam.org/hotflix/sporttvbr1/index.m3u8?token=64f195048c45a6a1b2f9256c5569732dd6fee06f-80-1769087913-1769033913&ip=190.175.10.14",
-  max1: "https://iaw5b.envivoslatam.org/hotflix/max1/index.m3u8?token=1707f133f711aaa16eabe4c50e8fb0f7f6b31d87-c3-1769069271-1769015271&ip=190.175.32.169"
-};
 
-// Array de canales
-var canales = [
-  {key:"tyc", nombre:"TyC Sports", logo:"https://upload.wikimedia.org/wikipedia/commons/5/54/TyC_Sports_logo.svg"},
-  {key:"dsports", nombre:"DSports", logo:"https://upload.wikimedia.org/wikipedia/commons/5/5a/DSports.png?20221114223321"},
-  {key:"tnt", nombre:"TNT Sports", logo:"https://upload.wikimedia.org/wikipedia/commons/f/f4/TNT_Sports_Premium_%28Argentina%29.png"},
-  {key:"fox", nombre:"Fox Sports", logo:"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Fox_Sports_Argentina_2023.svg/500px-Fox_Sports_Argentina_2023.svg.png"},
-  {key:"espnpremium", nombre:"ESPN Premium", logo:"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/ESPN_Premium_logo.svg/1280px-ESPN_Premium_logo.svg.png"},
-  {key:"espn1", nombre:"ESPN1", logo:"https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/ESPN_logo.png/1272px-ESPN_logo.png?20251024214629"},
-  {key:"disneyplus", nombre:"Disney+", logo:"https://upload.wikimedia.org/wikipedia/commons/3/3e/Disney%2B_Logo.svg"}
-];
+<!-- Lógica externa -->
+<script src="app.js"></script>
 
-// Array de partidos actualizado con logos
-var partidos = [
-  {liga:"Campeonato Carioca", local:"Flamengo", visitante:"Vasco da Gama", hora:"21:30", canal:"sporttvbr1", logo:"https://i.imgur.com/s3ZYvRm.png"},
-  {liga:"Serie Río de la Plata", local:"Colo-Colo", visitante:"Peñarol", hora:"21:00", canal:"espnpremium", logo:"https://i.imgur.com/mpW7IqU.png"},
-  {liga:"Copa Argentina", local:"Argentinos Juniors", visitante:"Midland", hora:"21:15", canal:"tyc", logo:"https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Copa_argentina_logo22.png/250px-Copa_argentina_logo22.png"},
-];
-
-// =========================
-// FUNCIONES
-// =========================
-var player = videojs("mainPlayer", {autoplay:true, liveui:true});
-
-function setStream(key){
-  player.src({ src: streams[key], type: "application/x-mpegURL" });
-  player.play();
-}
-
-function scrollPlayer(){
-  document.getElementById("playerSection").scrollIntoView({behavior:"smooth"});
-}
-
-// =========================
-// GENERAR HTML DINÁMICO
-// =========================
-var canalesContainer = document.getElementById("canalesContainer");
-canales.forEach(c => {
-  let div = document.createElement("div");
-  div.className = "match-card";
-  div.onclick = ()=>{ setStream(c.key); scrollPlayer(); };
-  div.innerHTML = `<img src="${c.logo}" alt="${c.nombre}"><div class="details">En vivo</div>`;
-  canalesContainer.appendChild(div);
-});
-
-var partidosContainer = document.getElementById("partidosContainer");
-partidos.forEach(p => {
-  let div = document.createElement("div");
-  div.className = "match-card";
-  div.onclick = ()=>{ setStream(p.canal); scrollPlayer(); };
-  div.innerHTML = `<img src="${p.logo}" style="width:120px;" alt="${p.liga}">
-                   <div class="name">${p.local} vs ${p.visitante}</div>
-                   <div class="details">${p.liga} — ${p.hora} · ${p.canal.replace("plus","+")}</div>`;
-  partidosContainer.appendChild(div);
-});
-
-// Inicializa con TyC Sports
-setStream("tyc");
-</script>
+<!-- Service Worker -->
 <script>
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('sw.js')
