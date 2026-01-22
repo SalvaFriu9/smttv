@@ -10,25 +10,25 @@
       "key": "dsports",
       "nombre": "DSports",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/5/5a/DSports.png",
-      "url": "https://xky9q.envivoslatam.org/hotflix/dsports/index.m3u8?token=26384f397929e609012b750febbf2f4bc82f3cf1-ed-1769087158-1769033158&ip=190.175.10.14"
+      "url": "https://tk0hz.envivoslatam.org/hotflix/dsports/index.m3u8?token=6059cbcb1de776f1fe1906fecbdb27076da82acf-aa-1769162268-1769108268&ip=190.175.10.14"
     },
     {
       "key": "tnt",
       "nombre": "TNT Sports",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/f/f4/TNT_Sports_Premium_%28Argentina%29.png",
-      "url": "https://tk0hz.envivoslatam.org/hotflix/tntsports/index.m3u8?token=19347a96908a5dcaaeb2627ad29d092c49d9544d-39-1769087184-1769033184&ip=190.175.10.14"
+      "url": "https://pvtn5y.envivoslatam.org/hotflix/tntsports/index.m3u8?token=c53d77200d6255b4718d87d5062add5ae64e4202-52-1769162298-1769108298&ip=190.175.10.14"
     },
     {
       "key": "fox",
       "nombre": "Fox Sports",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Fox_Sports_Argentina_2023.svg/500px-Fox_Sports_Argentina_2023.svg.png",
-      "url": "https://kh5vy.envivoslatam.org/hotflix/foxsports/index.m3u8?token=210bc153eecbcfbcd3f829343af3a2683346cd73-55-1769087212-1769033212&ip=190.175.10.14"
+      "url": "https://ng0pr.envivoslatam.org/hotflix/foxsports/index.m3u8?token=738c096a6edee06a4b1d9bccef5c9b82ce31ffb0-88-1769162338-1769108338&ip=190.175.10.14"
     },
     {
       "key": "espnpremium",
       "nombre": "ESPN Premium",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/ESPN_Premium_logo.svg",
-      "url": "https://yce5o.envivoslatam.org/hotflix/espnpremium/index.m3u8?token=539a34b97070d5ff1d8e201bf7c0454fd3ca96e4-de-1769087259-1769033259&ip=190.175.10.14"
+      "url": https://ng0pr.envivoslatam.org/hotflix/espnpremium/index.m3u8?token=cfc34b962ebff6b09bc5ca740556e6b91aa561f8-25-1769162358-1769108358&ip=190.175.10.14"
     }
   ],
   "partidos": [
@@ -61,4 +61,5 @@
     }
   ]
 }
+
 
