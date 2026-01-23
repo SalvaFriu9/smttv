@@ -33,42 +33,6 @@
   ],
   "partidos": [
     {
-      "liga": "Ligue 1",
-      "local": "Auxerre",
-      "visitante": "PSG",
-      "hora": "16:00",
-      "canal": "espn5",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Logo_Ligue_1_McDonald%27s_2024.svg",
-      "url": "https://qbk4f.envivoslatam.org/hotflix/espn5/index.m3u8?token=c54763d86ad10766936f0b1a12b1cceec3500817-d6-1769237831-1769183831&ip=190.175.5.151"
-    },
-    {
-      "liga": "Bundesliga",
-      "local": "St. Pauli",
-      "visitante": "Hamburgo SV",
-      "hora": "16:30",
-      "canal": "disney2",
-      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYoD4X1x58XgU0PMsewJXb8HbJ5yofILRBJt4zBDEMi_aC6mj83bzeNZCjevZfHG6DHlMwWX6RGiCdA_rSKmg5ruTgRqPlNUnwS0W10JyjY_SD4dlN34wfqJ5uXVX4r_1if3ncOu3SJdc/s1600/Bundesliga.png",
-      "url": "https://pvtn5y.envivoslatam.org/hotflix/disney2/index.m3u8?token=cbad60f9139b27a9bb3d25da584a93cfa9824d83-16-1769239538-1769185538&ip=190.175.5.151"
-    },
-    {
-      "liga": "EFL Championship",
-      "local": "Derby County",
-      "visitante": "West Bromwich Albion",
-      "hora": "17:00",
-      "canal": "espn7",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/EFL_Championship_Logo.svg/960px-EFL_Championship_Logo.svg.png",
-      "url": "https://tk0hz.envivoslatam.org/hotflix/espn7/index.m3u8?token=0e24e5e1e0f1922031198efece44234a26e16e15-83-1769243810-1769189810&ip=190.175.5.151"
-    },
-    {
-      "liga": "Serie A",
-      "local": "Internazionale Milano",
-      "visitante": "Pisa Sporting Club",
-      "hora": "16:45",
-      "canal": "espn2",
-      "logo": "https://i.imgur.com/CYywvra.png",
-      "url": "https://vg7ie.envivoslatam.org/hotflix/espn2/index.m3u8?token=b50f1b1ccc3be044b3966af09c012b9761d0a1a2-40-1769244162-1769190162&ip=190.175.5.151"
-    },
-    {
       "liga": "La Liga",
       "local": "Levante",
       "visitante": "Elche",
@@ -85,9 +49,82 @@
       "canal": "sport_1pt",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/5/5a/S%C3%ADmbolo_da_Liga_Portuguesa_de_Futebol_Profissional.png",
       "url": "https://qbk4f.envivoslatam.org/hotflix/sportv_1pt/index.m3u8?token=b30ad6b59a6b7009b6eb7a5c5f1495e3b39619f0-14-1769244544-1769190544&ip=190.175.5.151"
-    }     
+    },
+    {
+      "liga": "Liga Profesional de Futbol",
+      "local": "San Lorenzo",
+      "visitante": "Lanus",
+      "hora": "19:00",
+      "canal": "tnt",
+      "logo": "https://www.footballkitarchive.com/static/logos/LibxnuBpSsyh2gc/primera-division-argentina-2026-logo.png",
+      "url": "https://kh5vy.envivoslatam.org/hotflix/tntsports/index.m3u8?token=e0c096307c3ac8588e7338ef59eec0be891a98bf-9a-1769247464-1769193464&ip=190.175.5.151"
+    },
+    {    
+      "liga": "Liga Profesional de Futbol",
+      "local": "Independiente de Avellaneda",
+      "visitante": "Estudiantes de la Plata",
+      "hora": "20:00",
+      "canal": "espnpremium",
+      "logo": "https://www.footballkitarchive.com/static/logos/LibxnuBpSsyh2gc/primera-division-argentina-2026-logo.png",
+      "url": "https://j8nte.envivoslatam.org/hotflix/espnpremium/index.m3u8?token=57f27be906de74f1b3544f43e37d5bd998eb8246-80-1769236539-1769182539&ip=190.175.5.151"
+    },
+    {    
+      "liga": "Serie Rio de la Plata",
+      "local": "Colon de Santa Fe",
+      "visitante": "Paysandu",
+      "hora": "20:00",
+      "canal": "disney1",
+      "logo": "https://i.imgur.com/mpW7IqU.png",
+      "url": "https://wf6kt.envivoslatam.org/hotflix/disney1/index.m3u8?token=2fdc4a060fd0d9278e9fdbea60e58527c6236cb4-85-1769247686-1769193686&ip=190.175.5.151"
+    },
+    {    
+      "liga": "Liga Betplay Dimayor",
+      "local": "Internacional de Bogota",
+      "visitante": "Cucuta Deportivo",
+      "hora": "20:20",
+      "canal": "winplus",
+      "logo": "https://a.espncdn.com/combiner/i?img=%2Fi%2Fleaguelogos%2Fsoccer%2F500%2F1543.png",
+      "url": "https://lcrj3.envivoslatam.org/hotflix/winplus/index.m3u8?token=b80fee79b4877e66e7dc09282e05cb27faf5ec5f-a4-1769248035-1769194035&ip=190.175.5.151"
+    },
+    {    
+      "liga": "Serie Rio de la Plata",
+      "local": "Deportes Concepcion",
+      "visitante": "Montevideo City",
+      "hora": "22:00",
+      "canal": "disney2",
+      "logo": "https://i.imgur.com/mpW7IqU.png",
+      "url": "https://mze7u.envivoslatam.org/hotflix/disney2/index.m3u8?token=013fc139d5c944a0b11b9b3bc4b8d188d334c21d-59-1769248279-1769194279&ip=190.175.5.151"
+    },
+    {
+      "liga": "Liga Profesional de Futbol",
+      "local": "Independiente de Rivadavia",
+      "visitante": "Atletico Tucuman",
+      "hora": "22:15",
+      "canal": "tnt",
+      "logo": "https://www.footballkitarchive.com/static/logos/LibxnuBpSsyh2gc/primera-division-argentina-2026-logo.png",
+      "url": "https://kh5vy.envivoslatam.org/hotflix/tntsports/index.m3u8?token=e0c096307c3ac8588e7338ef59eec0be891a98bf-9a-1769247464-1769193464&ip=190.175.5.151"
+    },
+    {    
+      "liga": "Liga Profesional de Futbol",
+      "local": "Talleres de Cordoba",
+      "visitante": "Newell's Old Boys",
+      "hora": "22:15",
+      "canal": "espnpremium",
+      "logo": "https://www.footballkitarchive.com/static/logos/LibxnuBpSsyh2gc/primera-division-argentina-2026-logo.png",
+      "url": "https://j8nte.envivoslatam.org/hotflix/espnpremium/index.m3u8?token=57f27be906de74f1b3544f43e37d5bd998eb8246-80-1769236539-1769182539&ip=190.175.5.151"
+    },
+    {    
+      "liga": "Liga Betplay Dimayor",
+      "local": "Deportes Tolima",
+      "visitante": "Alianza Futbol Club",
+      "hora": "22:30",
+      "canal": "winplus",
+      "logo": "https://a.espncdn.com/combiner/i?img=%2Fi%2Fleaguelogos%2Fsoccer%2F500%2F1543.png",
+      "url": "https://lcrj3.envivoslatam.org/hotflix/winplus/index.m3u8?token=b80fee79b4877e66e7dc09282e05cb27faf5ec5f-a4-1769248035-1769194035&ip=190.175.5.151"
+    }    
   ]
 }
+
 
 
 
