@@ -33,34 +33,26 @@
   ],
   "partidos": [
     {
-      "liga": "Campeonato Mineiro",
-      "local": "Cruzeiro",
-      "visitante": "Democrata GV",
-      "hora": "18:30",
-      "canal": "premiere1",
-      "logo": "https://a3.espncdn.com/combiner/i?img=%2Fi%2Fleaguelogos%2Fsoccer%2F500%2F2360.png",
-      "url": "https://ng0pr.envivoslatam.org/hotflix/premiere1/index.m3u8?token=89ad880c62ed63b1639a926465fac36539804804-cc-1769163321-1769109321&ip=190.175.10.14"
+      "liga": "Ligue 1",
+      "local": "Auxerre",
+      "visitante": "PSG",
+      "hora": "16:00",
+      "canal": "espn5",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Logo_Ligue_1_McDonald%27s_2024.svg",
+      "url": "https://qbk4f.envivoslatam.org/hotflix/espn5/index.m3u8?token=c54763d86ad10766936f0b1a12b1cceec3500817-d6-1769237831-1769183831&ip=190.175.5.151"
     },
     {
-      "liga": "Campeonato Carioca",
-      "local": "Boavista",
-      "visitante": "Portuguesa RJ",
-      "hora": "19:00",
-      "canal": "premiere2",
-      "logo": "https://i.imgur.com/s3ZYvRm.png",
-      "url": "https://ub2dr.envivoslatam.org/hotflix/premiere2/index.m3u8?token=8ea87c5a79f65ea1d0944bb95a701d7dda8d07fb-23-1769165560-1769111560&ip=190.175.10.14"
+      "liga": "Bundesliga",
+      "local": "St. Pauli",
+      "visitante": "Hamburgo SV",
+      "hora": "16:30",
+      "canal": "disney2",
+      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYoD4X1x58XgU0PMsewJXb8HbJ5yofILRBJt4zBDEMi_aC6mj83bzeNZCjevZfHG6DHlMwWX6RGiCdA_rSKmg5ruTgRqPlNUnwS0W10JyjY_SD4dlN34wfqJ5uXVX4r_1if3ncOu3SJdc/s1600/Bundesliga.png",
+      "url": "https://pvtn5y.envivoslatam.org/hotflix/disney2/index.m3u8?token=cbad60f9139b27a9bb3d25da584a93cfa9824d83-16-1769239538-1769185538&ip=190.175.5.151"
     },
-    {
-      "liga": "Campeonato Gaucho",
-      "local": "Juventude",
-      "visitante": "Caixas",
-      "hora": "19:00",
-      "canal": "premiere3",
-      "logo": "https://tmssl.akamaized.net//images/logo/header/brrs.png?lm=1736968666",
-      "url": "https://kh5vy.envivoslatam.org/hotflix/premiere3/index.m3u8?token=f9d769d67dda287a5a4af6fe6d2c7b5ac8e59907-47-1769165797-1769111797&ip=190.175.10.14"
-    }
   ]
 }
+
 
 
 
