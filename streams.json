@@ -27,7 +27,7 @@
     {
       "key": "espnpremium",
       "nombre": "ESPN Premium",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/ESPN_Premium_logo.svg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/ESPN_Premium_logo.svg/1280px-ESPN_Premium_logo.svg.png?20220502034424",
       "url": "https://j8nte.envivoslatam.org/hotflix/espnpremium/index.m3u8?token=57f27be906de74f1b3544f43e37d5bd998eb8246-80-1769236539-1769182539&ip=190.175.5.151"
     }
   ],
@@ -49,9 +49,46 @@
       "canal": "disney2",
       "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYoD4X1x58XgU0PMsewJXb8HbJ5yofILRBJt4zBDEMi_aC6mj83bzeNZCjevZfHG6DHlMwWX6RGiCdA_rSKmg5ruTgRqPlNUnwS0W10JyjY_SD4dlN34wfqJ5uXVX4r_1if3ncOu3SJdc/s1600/Bundesliga.png",
       "url": "https://pvtn5y.envivoslatam.org/hotflix/disney2/index.m3u8?token=cbad60f9139b27a9bb3d25da584a93cfa9824d83-16-1769239538-1769185538&ip=190.175.5.151"
-    }
+    },
+    {
+      "liga": "EFL Championship",
+      "local": "Derby County",
+      "visitante": "West Bromwich Albion",
+      "hora": "17:00",
+      "canal": "espn7",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/EFL_Championship_Logo.svg/960px-EFL_Championship_Logo.svg.png",
+      "url": "https://tk0hz.envivoslatam.org/hotflix/espn7/index.m3u8?token=0e24e5e1e0f1922031198efece44234a26e16e15-83-1769243810-1769189810&ip=190.175.5.151"
+    },
+    {
+      "liga": "Serie A",
+      "local": "Internazionale Milano",
+      "visitante": "Pisa Sporting Club",
+      "hora": "16:45",
+      "canal": "espn2",
+      "logo": "https://i.imgur.com/CYywvra.png",
+      "url": "https://vg7ie.envivoslatam.org/hotflix/espn2/index.m3u8?token=b50f1b1ccc3be044b3966af09c012b9761d0a1a2-40-1769244162-1769190162&ip=190.175.5.151"
+    },
+    {
+      "liga": "La Liga",
+      "local": "Levante",
+      "visitante": "Elche",
+      "hora": "17:00",
+      "canal": "dsports",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/LaLiga_logo_2023.svg/3840px-LaLiga_logo_2023.svg.png",
+      "url": "https://xky9q.envivoslatam.org/hotflix/dsports/index.m3u8?token=d3b065ec8f159f213259889a7272aacbc804203b-75-1769236381-1769182381&ip=190.175.5.151"
+    },
+    {
+      "liga": "Primeira Liga",
+      "local": "Casa Pia",
+      "visitante": "AVS",
+      "hora": "17:15",
+      "canal": "sport_1pt",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/5/5a/S%C3%ADmbolo_da_Liga_Portuguesa_de_Futebol_Profissional.png",
+      "url": "https://qbk4f.envivoslatam.org/hotflix/sportv_1pt/index.m3u8?token=b30ad6b59a6b7009b6eb7a5c5f1495e3b39619f0-14-1769244544-1769190544&ip=190.175.5.151"
+    }     
   ]
 }
+
 
 
 
