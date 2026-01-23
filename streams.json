@@ -4,31 +4,31 @@
       "key": "tyc",
       "nombre": "TyC Sports",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/5/54/TyC_Sports_logo.svg",
-      "url": "https://tk0hz.envivoslatam.org/hotflix/tycsports/index.m3u8?token=e823c39c97d98450ff5a5226e79eede733dd1c21-c4-1769161643-1769107643&ip=190.175.10.14"
+      "url": "https://lcrj3.envivoslatam.org/hotflix/tycsports/index.m3u8?token=0cebdf8c2c7024a176c4e30fa6c5e7c2732fe0c9-ee-1769236106-1769182106&ip=190.175.5.151"
     },
     {
       "key": "dsports",
       "nombre": "DSports",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/5/5a/DSports.png",
-      "url": "https://tk0hz.envivoslatam.org/hotflix/dsports/index.m3u8?token=6059cbcb1de776f1fe1906fecbdb27076da82acf-aa-1769162268-1769108268&ip=190.175.10.14"
+      "url": "https://xky9q.envivoslatam.org/hotflix/dsports/index.m3u8?token=d3b065ec8f159f213259889a7272aacbc804203b-75-1769236381-1769182381&ip=190.175.5.151"
     },
     {
       "key": "tnt",
       "nombre": "TNT Sports",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/f/f4/TNT_Sports_Premium_%28Argentina%29.png",
-      "url": "https://pvtn5y.envivoslatam.org/hotflix/tntsports/index.m3u8?token=c53d77200d6255b4718d87d5062add5ae64e4202-52-1769162298-1769108298&ip=190.175.10.14"
+      "url": "https://mze7u.envivoslatam.org/hotflix/tntsports/index.m3u8?token=e681c25f0089cee22d899ac36e49c6b4635b1112-b8-1769236404-1769182404&ip=190.175.5.151"
     },
     {
       "key": "fox",
       "nombre": "Fox Sports",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Fox_Sports_Argentina_2023.svg/500px-Fox_Sports_Argentina_2023.svg.png",
-      "url": "https://ng0pr.envivoslatam.org/hotflix/foxsports/index.m3u8?token=738c096a6edee06a4b1d9bccef5c9b82ce31ffb0-88-1769162338-1769108338&ip=190.175.10.14"
+      "url": "https://ub2dr.envivoslatam.org/hotflix/foxsports/index.m3u8?token=c946400769ab2d713afb06c9ea46a1e77424c30b-ed-1769236521-1769182521&ip=190.175.5.151"
     },
     {
       "key": "espnpremium",
       "nombre": "ESPN Premium",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/ESPN_Premium_logo.svg",
-      "url": "https://ng0pr.envivoslatam.org/hotflix/espnpremium/index.m3u8?token=cfc34b962ebff6b09bc5ca740556e6b91aa561f8-25-1769162358-1769108358&ip=190.175.10.14"
+      "url": "https://j8nte.envivoslatam.org/hotflix/espnpremium/index.m3u8?token=57f27be906de74f1b3544f43e37d5bd998eb8246-80-1769236539-1769182539&ip=190.175.5.151"
     }
   ],
   "partidos": [
@@ -61,6 +61,7 @@
     }
   ]
 }
+
 
 
 
