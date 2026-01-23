@@ -33,24 +33,6 @@
   ],
   "partidos": [
     {
-      "liga": "La Liga",
-      "local": "Levante",
-      "visitante": "Elche",
-      "hora": "17:00",
-      "canal": "dsports",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/LaLiga_logo_2023.svg/3840px-LaLiga_logo_2023.svg.png",
-      "url": "https://xky9q.envivoslatam.org/hotflix/dsports/index.m3u8?token=d3b065ec8f159f213259889a7272aacbc804203b-75-1769236381-1769182381&ip=190.175.5.151"
-    },
-    {
-      "liga": "Primeira Liga",
-      "local": "Casa Pia",
-      "visitante": "AVS",
-      "hora": "17:15",
-      "canal": "sport_1pt",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/5/5a/S%C3%ADmbolo_da_Liga_Portuguesa_de_Futebol_Profissional.png",
-      "url": "https://qbk4f.envivoslatam.org/hotflix/sportv_1pt/index.m3u8?token=b30ad6b59a6b7009b6eb7a5c5f1495e3b39619f0-14-1769244544-1769190544&ip=190.175.5.151"
-    },
-    {
       "liga": "Liga Profesional de Futbol",
       "local": "San Lorenzo",
       "visitante": "Lanus",
@@ -124,6 +106,7 @@
     }    
   ]
 }
+
 
 
 
