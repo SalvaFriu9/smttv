@@ -33,31 +33,31 @@
   ],
   "partidos": [
     {    
-      "liga": "Serie Rio de la Plata",
-      "local": "Deportes Concepcion",
-      "visitante": "Montevideo City",
-      "hora": "22:00",
-      "canal": "disney2",
-      "logo": "https://i.imgur.com/mpW7IqU.png",
-      "url": "https://mze7u.envivoslatam.org/hotflix/disney2/index.m3u8?token=013fc139d5c944a0b11b9b3bc4b8d188d334c21d-59-1769248279-1769194279&ip=190.175.5.151"
+      "liga": "La Liga",
+      "local": "Rayo Vallecano",
+      "visitante": "Osasuna",
+      "hora": "10:00",
+      "canal": "disney3",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/LaLiga_logo_2023.svg/960px-LaLiga_logo_2023.svg.png",
+      "url": "https://mze7u.envivoslatam.org/hotflix/disney3/index.m3u8?token=0d0cc7127bbdc81fa6f43f8e35b7416cf1bf6802-be-1769309508-1769255508&ip=190.175.5.151"
     },
     {
-      "liga": "Liga Profesional de Futbol",
-      "local": "Independiente de Rivadavia",
-      "visitante": "Atletico Tucuman",
-      "hora": "22:15",
-      "canal": "tnt",
-      "logo": "https://i.imgur.com/3P8nbWy.png",
-      "url": "https://kh5vy.envivoslatam.org/hotflix/tntsports/index.m3u8?token=e0c096307c3ac8588e7338ef59eec0be891a98bf-9a-1769247464-1769193464&ip=190.175.5.151"
+      "liga": "Serie A",
+      "local": "Como 1907",
+      "visitante": "Torino",
+      "hora": "11:00",
+      "canal": "foxdeportesusa",
+      "logo": "https://i.imgur.com/wLustkw.png",
+      "url": "https://xky9q.envivoslatam.org/hotflix/fox_deportes_usa/index.m3u8?token=c36e392e5bbddcece05b286d4d8719bd866a7a8a-16-1769309681-1769255681&ip=190.175.5.151"
     },
     {    
-      "liga": "Liga Profesional de Futbol",
-      "local": "Talleres de Cordoba",
-      "visitante": "Newell's Old Boys",
-      "hora": "22:15",
-      "canal": "espnpremium",
-      "logo": "https://i.imgur.com/3P8nbWy.png",
-      "url": "https://j8nte.envivoslatam.org/hotflix/espnpremium/index.m3u8?token=57f27be906de74f1b3544f43e37d5bd998eb8246-80-1769236539-1769182539&ip=190.175.5.151"
+      "liga": "Bundesliga",
+      "local": "Heidenheim",
+      "visitante": "RB Leipzig",
+      "hora": "11:30",
+      "canal": "disney8",
+      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYoD4X1x58XgU0PMsewJXb8HbJ5yofILRBJt4zBDEMi_aC6mj83bzeNZCjevZfHG6DHlMwWX6RGiCdA_rSKmg5ruTgRqPlNUnwS0W10JyjY_SD4dlN34wfqJ5uXVX4r_1if3ncOu3SJdc/s1600/Bundesliga.png",
+      "url": "https://qbk4f.envivoslatam.org/hotflix/disney8/index.m3u8?token=ffed9d1b81a74720e4c50bcaa42fe60c0eae5d14-c2-1769310432-1769256432&ip=190.175.5.151"
     },
     {    
       "liga": "Liga Betplay Dimayor",
@@ -70,6 +70,7 @@
     }    
   ]
 }
+
 
 
 
