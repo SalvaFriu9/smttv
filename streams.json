@@ -85,9 +85,37 @@
       "canal": "disney7",
       "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYoD4X1x58XgU0PMsewJXb8HbJ5yofILRBJt4zBDEMi_aC6mj83bzeNZCjevZfHG6DHlMwWX6RGiCdA_rSKmg5ruTgRqPlNUnwS0W10JyjY_SD4dlN34wfqJ5uXVX4r_1if3ncOu3SJdc/s1600/Bundesliga.png",
       "url": "https://ng0pr.envivoslatam.org/hotflix/disney7/index.m3u8?token=c51f667a8c8f4cf7ba414af22f201b483d1f3427-4d-1769311794-1769257794&ip=190.175.5.151"
-    }          
+    },
+    {    
+      "liga": "Premier League",
+      "local": "Manchester City",
+      "visitante": "Wolverhampton Wanderers",
+      "hora": "12:00",
+      "canal": "disney11",
+      "logo": "https://i.imgur.com/1qyJTez.png",
+      "url": "https://lcrj3.envivoslatam.org/hotflix/disney11/index.m3u8?token=5c982a82c8dca88c4a59a3f5393af95787f108f1-1d-1769312792-1769258792&ip=190.175.5.151"
+    },
+    {    
+      "liga": "Premier League",
+      "local": "Burnley",
+      "visitante": "Tottenham Hotspur",
+      "hora": "12:00",
+      "canal": "espn",
+      "logo": "https://i.imgur.com/1qyJTez.png",
+      "url": "https://pvtn5y.envivoslatam.org/hotflix/espn/index.m3u8?token=8f84bbbf5409478849731d6136ea7154750ca941-b4-1769313137-1769259137&ip=190.175.5.151"
+    },
+    {    
+      "liga": "EFL Championship",
+      "local": "Hull City",
+      "visitante": "Swansea City",
+      "hora": "12:00",
+      "canal": "fox",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/EFL_Championship_Logo.svg/960px-EFL_Championship_Logo.svg.png",
+      "url": "https://ub2dr.envivoslatam.org/hotflix/foxsports/index.m3u8?token=d7c9deef29eeaf31da524de32b494754bd25b18a-43-1769311388-1769257388&ip=190.175.5.151"
+    },    
   ]
 }
+
 
 
 
