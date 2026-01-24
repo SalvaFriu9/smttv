@@ -31,16 +31,7 @@
       "url": "https://j8nte.envivoslatam.org/hotflix/espnpremium/index.m3u8?token=57f27be906de74f1b3544f43e37d5bd998eb8246-80-1769236539-1769182539&ip=190.175.5.151"
     }
   ],
-  "partidos": [
-    {
-      "liga": "Liga Profesional de Futbol",
-      "local": "San Lorenzo",
-      "visitante": "Lanus",
-      "hora": "19:00",
-      "canal": "tnt",
-      "logo": "https://i.imgur.com/3P8nbWy.png",
-      "url": "https://kh5vy.envivoslatam.org/hotflix/tntsports/index.m3u8?token=e0c096307c3ac8588e7338ef59eec0be891a98bf-9a-1769247464-1769193464&ip=190.175.5.151"
-    },
+  "partidos": [
     {    
       "liga": "Liga Profesional de Futbol",
       "local": "Independiente de Avellaneda",
