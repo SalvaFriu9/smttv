@@ -4,43 +4,34 @@
       "key": "tyc",
       "nombre": "TyC Sports",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/5/54/TyC_Sports_logo.svg",
-      "url": "https://lcrj3.envivoslatam.org/hotflix/tycsports/index.m3u8?token=0cebdf8c2c7024a176c4e30fa6c5e7c2732fe0c9-ee-1769236106-1769182106&ip=190.175.5.151"
+      "url": "https://rci1w.envivoslatam.org/hotflix/tycsports/index.m3u8?token=e77260a3fa05654f4b6b2302440219574338ab66-f7-1769311251-1769257251&ip=190.175.5.151"
     },
     {
       "key": "dsports",
       "nombre": "DSports",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/5/5a/DSports.png",
-      "url": "https://xky9q.envivoslatam.org/hotflix/dsports/index.m3u8?token=d3b065ec8f159f213259889a7272aacbc804203b-75-1769236381-1769182381&ip=190.175.5.151"
+      "url": "https://smjt9q.envivoslatam.org/hotflix/dsports/index.m3u8?token=18707ceeb76c36cd972066a0970443852b593434-2f-1769311269-1769257269&ip=190.175.5.151"
     },
     {
       "key": "tnt",
       "nombre": "TNT Sports",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/f/f4/TNT_Sports_Premium_%28Argentina%29.png",
-      "url": "https://mze7u.envivoslatam.org/hotflix/tntsports/index.m3u8?token=e681c25f0089cee22d899ac36e49c6b4635b1112-b8-1769236404-1769182404&ip=190.175.5.151"
+      "url": "https://iaw5b.envivoslatam.org/hotflix/tntsports/index.m3u8?token=602d4c8729daac26df81337bc9d9f21f94e96832-9f-1769311351-1769257351&ip=190.175.5.151"
     },
     {
       "key": "fox",
       "nombre": "Fox Sports",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Fox_Sports_Argentina_2023.svg/500px-Fox_Sports_Argentina_2023.svg.png",
-      "url": "https://ub2dr.envivoslatam.org/hotflix/foxsports/index.m3u8?token=c946400769ab2d713afb06c9ea46a1e77424c30b-ed-1769236521-1769182521&ip=190.175.5.151"
+      "url": "https://ub2dr.envivoslatam.org/hotflix/foxsports/index.m3u8?token=d7c9deef29eeaf31da524de32b494754bd25b18a-43-1769311388-1769257388&ip=190.175.5.151"
     },
     {
       "key": "espnpremium",
       "nombre": "ESPN Premium",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/ESPN_Premium_logo.svg/1280px-ESPN_Premium_logo.svg.png?20220502034424",
-      "url": "https://j8nte.envivoslatam.org/hotflix/espnpremium/index.m3u8?token=57f27be906de74f1b3544f43e37d5bd998eb8246-80-1769236539-1769182539&ip=190.175.5.151"
+      "url": "https://lcrj3.envivoslatam.org/hotflix/espnpremium/index.m3u8?token=947c195a8118e95e81dcaca24e001339150551ce-29-1769311438-1769257438&ip=190.175.5.151"
     }
   ],
   "partidos": [
-    {    
-      "liga": "La Liga",
-      "local": "Rayo Vallecano",
-      "visitante": "Osasuna",
-      "hora": "10:00",
-      "canal": "disney3",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/LaLiga_logo_2023.svg/960px-LaLiga_logo_2023.svg.png",
-      "url": "https://mze7u.envivoslatam.org/hotflix/disney3/index.m3u8?token=0d0cc7127bbdc81fa6f43f8e35b7416cf1bf6802-be-1769309508-1769255508&ip=190.175.5.151"
-    },
     {
       "liga": "Serie A",
       "local": "Como 1907",
@@ -60,16 +51,44 @@
       "url": "https://qbk4f.envivoslatam.org/hotflix/disney8/index.m3u8?token=ffed9d1b81a74720e4c50bcaa42fe60c0eae5d14-c2-1769310432-1769256432&ip=190.175.5.151"
     },
     {    
-      "liga": "Liga Betplay Dimayor",
-      "local": "Deportes Tolima",
-      "visitante": "Alianza Futbol Club",
-      "hora": "22:30",
-      "canal": "winplus",
-      "logo": "https://a.espncdn.com/combiner/i?img=%2Fi%2Fleaguelogos%2Fsoccer%2F500%2F1543.png",
-      "url": "https://lcrj3.envivoslatam.org/hotflix/winplus/index.m3u8?token=b80fee79b4877e66e7dc09282e05cb27faf5ec5f-a4-1769248035-1769194035&ip=190.175.5.151"
-    }    
+      "liga": "Bundesliga",
+      "local": "Mainz 05",
+      "visitante": "Wolfsburg",
+      "hora": "11:30",
+      "canal": "disney9",
+      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYoD4X1x58XgU0PMsewJXb8HbJ5yofILRBJt4zBDEMi_aC6mj83bzeNZCjevZfHG6DHlMwWX6RGiCdA_rSKmg5ruTgRqPlNUnwS0W10JyjY_SD4dlN34wfqJ5uXVX4r_1if3ncOu3SJdc/s1600/Bundesliga.png",
+      "url": "https://yce5o.envivoslatam.org/hotflix/disney9/index.m3u8?token=9d38e00376ee7dc715b63450b6f19079b6ed2f1b-90-1769311555-1769257555&ip=190.175.5.151"
+    },
+    {    
+      "liga": "Bundesliga",
+      "local": "Bayern Leverkusen",
+      "visitante": "Werder Bremen",
+      "hora": "11:30",
+      "canal": "espn2",
+      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYoD4X1x58XgU0PMsewJXb8HbJ5yofILRBJt4zBDEMi_aC6mj83bzeNZCjevZfHG6DHlMwWX6RGiCdA_rSKmg5ruTgRqPlNUnwS0W10JyjY_SD4dlN34wfqJ5uXVX4r_1if3ncOu3SJdc/s1600/Bundesliga.png",
+      "url": "https://vg7ie.envivoslatam.org/hotflix/espn2/index.m3u8?token=61891bb6f9d2dc4a2eadd5d8f0fe16764a7d60ba-fb-1769311627-1769257627&ip=190.175.5.151"
+    },    
+    {    
+      "liga": "Bundesliga",
+      "local": "Bayern Munchen",
+      "visitante": "Augsburg",
+      "hora": "11:30",
+      "canal": "disney6",
+      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYoD4X1x58XgU0PMsewJXb8HbJ5yofILRBJt4zBDEMi_aC6mj83bzeNZCjevZfHG6DHlMwWX6RGiCdA_rSKmg5ruTgRqPlNUnwS0W10JyjY_SD4dlN34wfqJ5uXVX4r_1if3ncOu3SJdc/s1600/Bundesliga.png",
+      "url": "https://xky9q.envivoslatam.org/hotflix/disney6/index.m3u8?token=6d3e8859760be8da57c9ca81afe23b80cfbcca48-8c-1769311712-1769257712&ip=190.175.5.151"
+    },      
+    {    
+      "liga": "Bundesliga",
+      "local": "Frankfurt",
+      "visitante": "Hoffenheim",
+      "hora": "11:30",
+      "canal": "disney7",
+      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYoD4X1x58XgU0PMsewJXb8HbJ5yofILRBJt4zBDEMi_aC6mj83bzeNZCjevZfHG6DHlMwWX6RGiCdA_rSKmg5ruTgRqPlNUnwS0W10JyjY_SD4dlN34wfqJ5uXVX4r_1if3ncOu3SJdc/s1600/Bundesliga.png",
+      "url": "https://ng0pr.envivoslatam.org/hotflix/disney7/index.m3u8?token=c51f667a8c8f4cf7ba414af22f201b483d1f3427-4d-1769311794-1769257794&ip=190.175.5.151"
+    },          
   ]
 }
+
 
 
 
