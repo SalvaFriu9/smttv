@@ -33,25 +33,26 @@
   ],
   "partidos": [
     {
-      "liga": "Campeonato Paulista A1",
-      "local": "Santos",
-      "visitante": "RB Bragantino",
-      "hora": "16:00",
-      "canal": "max4",
-      "logo": "https://upload.wikimedia.org/wikipedia/pt/1/1c/Paulist%C3%A3o_2026.png",
-      "url": "https://pvtn5y.envivoslatam.org/hotflix/max4/index.m3u8?token=38dde8c65eecacea16ca733331b86d11710cb59b-82-1769413098-1769359098&ip=190.175.5.151"
-    },     
+      "liga": "Liga Profesional de Futbol",
+      "local": "Boca Juniors",
+      "visitante": "Deportivo Riestra",
+      "hora": "18:30",
+      "canal": "tnt",
+      "logo": "https://i.imgur.com/3P8nbWy.png",
+      "url": "https://vg7ie.envivoslatam.org/hotflix/tntsports/index.m3u8?token=c377c1d9fcaa172c4eebeeb8fd0da72394c77e1f-d2-1769415044-1769361044&ip=190.175.5.151"
+    }, 
     {
-      "liga": "Serie A",
-      "local": "Roma",
-      "visitante": "Milan",
-      "hora": "16:45",
-      "canal": "espn2",
-      "logo": "https://i.imgur.com/wLustkw.png",
-      "url": "https://lcrj3.envivoslatam.org/hotflix/espn2/index.m3u8?token=946318cd07d89df7b70e9a86a78002634743fc1a-2b-1769416744-1769362744&ip=190.175.5.151"
-    }
+      "liga": "Campeonato Paulista A1",
+      "local": "Novorizontino",
+      "visitante": "Botafogo SP",
+      "hora": "18:30",
+      "canal": "max",
+      "logo": "https://upload.wikimedia.org/wikipedia/pt/1/1c/Paulist%C3%A3o_2026.png",
+      "url": "https://rci1w.envivoslatam.org/hotflix/daznf1/index.m3u8?token=db73fafe3af91b04658dcbfa881241e4c31de4da-81-1769425064-1769371064&ip=190.175.5.151"
+    }      
   ]
 }
+
 
 
 
