@@ -34,40 +34,13 @@
   "partidos": [
     {
       "liga": "Liga Profesional de Futbol",
-      "local": "Gimnasia y Esgrima de la Plata",
-      "visitante": "Racing Club",
-      "hora": "19:30",
-      "canal": "tnt",
+      "local": "Rosario Central",
+      "visitante": "Belgrano de Cordoba",
+      "hora": "22:00",
+      "canal": "espnpremium",
       "logo": "https://i.imgur.com/3P8nbWy.png",
-      "url": "https://iaw5b.envivoslatam.org/hotflix/tntsports/index.m3u8?token=602d4c8729daac26df81337bc9d9f21f94e96832-9f-1769311351-1769257351&ip=190.175.5.151"
-    },
-    {    
-      "liga": "Liga Hondubet",
-      "local": "Juticalpa",
-      "visitante": "Choloma",
-      "hora": "20:15",
-      "canal": "deportestvc",
-      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFt5hwlcCeX7EqLeZb34Rz617jx1AkAeP9odonLI62RBYt4SxrF0RM2jQUV2si9uPzv0WdUokXUlfdLWcc2q2m1upTPXzHaxQGE_w1jO0aLE4GB7OtIx200UJAXhdSijbrVEArPxXry_hPsDnIxh4t4xwnntUxM7cH2hm15mLGvjJ4h3FkIQtd4NuM7AM/s16000/Liga%20Hondubet.png",
-      "url": "https://smjt9q.envivoslatam.org/hotflix/event2/index.m3u8?token=fc52b8920bd9006c7ddf8fcc180f710b8b6d713c-f2-1769343579-1769289579&ip=190.175.5.151"
-    },
-    {    
-      "liga": "Copa de Primera",
-      "local": "Cerro Porteño",
-      "visitante": "Libertad",
-      "hora": "20:15",
-      "canal": "tigosports",
-      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_g3ISlFQclPoSRzy7jEqhJE9kpJqOKRUCzP2qBZtWndEbN_iJxi1yGZZxIlM3iZc1Yd0MPIYO5t3QKwKTTW3KZGb9gA1AZ3wRfOFCvM3avikXyB_6bH2C61jFjciFnOpAe7Uws4rQaKN1zr9etDqKpJDJgzZQvOU-iFN3SEoJizjuzO_QH3Da9nFoEyg/s16000/Copa%20de%20Primera%20Tigo%20%E2%80%93%20ueno%20bank.png",
-      "url": "https://tk0hz.envivoslatam.org/hotflix/event3/index.m3u8?token=8c03ef98e13f28894b1726005209c9c07fb5993c-69-1769343927-1769289927&ip=190.175.5.151"
-    },
-    {    
-      "liga": "Liga Betplay Dimayor",
-      "local": "Deportivo Cali",
-      "visitante": "Independiente de Medellin",
-      "hora": "20:20",
-      "canal": "winplus",
-      "logo": "https://a.espncdn.com/combiner/i?img=%2Fi%2Fleaguelogos%2Fsoccer%2F500%2F1543.png",
-      "url": "https://iaw5b.envivoslatam.org/hotflix/winplus/index.m3u8?token=c3f8e048135706bcafeca465dba07808d5e9d4de-af-1769344058-1769290058&ip=190.175.5.151"
-    },    
+      "url": "https://lcrj3.envivoslatam.org/hotflix/espnpremium/index.m3u8?token=947c195a8118e95e81dcaca24e001339150551ce-29-1769311438-1769257438&ip=190.175.5.151"
+    },    
     {    
       "liga": "Campeonato Carioca",
       "local": "Botafogo",
@@ -76,43 +49,7 @@
       "canal": "premiere1",
       "logo": "https://i.imgur.com/s3ZYvRm.png",
       "url": "https://pvtn5y.envivoslatam.org/hotflix/premiere1/index.m3u8?token=93f9ae16e4505dc2270ae0327be2599157195424-18-1769345580-1769291580&ip=190.175.5.151"
-    },      
-    {    
-      "liga": "Bundesliga",
-      "local": "Frankfurt",
-      "visitante": "Hoffenheim",
-      "hora": "11:30",
-      "canal": "disney7",
-      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYoD4X1x58XgU0PMsewJXb8HbJ5yofILRBJt4zBDEMi_aC6mj83bzeNZCjevZfHG6DHlMwWX6RGiCdA_rSKmg5ruTgRqPlNUnwS0W10JyjY_SD4dlN34wfqJ5uXVX4r_1if3ncOu3SJdc/s1600/Bundesliga.png",
-      "url": "https://ng0pr.envivoslatam.org/hotflix/disney7/index.m3u8?token=c51f667a8c8f4cf7ba414af22f201b483d1f3427-4d-1769311794-1769257794&ip=190.175.5.151"
-    },
-    {    
-      "liga": "Premier League",
-      "local": "Manchester City",
-      "visitante": "Wolverhampton Wanderers",
-      "hora": "12:00",
-      "canal": "disney11",
-      "logo": "https://i.imgur.com/1qyJTez.png",
-      "url": "https://lcrj3.envivoslatam.org/hotflix/disney11/index.m3u8?token=5c982a82c8dca88c4a59a3f5393af95787f108f1-1d-1769312792-1769258792&ip=190.175.5.151"
-    },
-    {    
-      "liga": "Premier League",
-      "local": "Burnley",
-      "visitante": "Tottenham Hotspur",
-      "hora": "12:00",
-      "canal": "espn",
-      "logo": "https://i.imgur.com/1qyJTez.png",
-      "url": "https://pvtn5y.envivoslatam.org/hotflix/espn/index.m3u8?token=8f84bbbf5409478849731d6136ea7154750ca941-b4-1769313137-1769259137&ip=190.175.5.151"
-    },
-    {    
-      "liga": "EFL Championship",
-      "local": "Hull City",
-      "visitante": "Swansea City",
-      "hora": "12:00",
-      "canal": "fox",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/EFL_Championship_Logo.svg/960px-EFL_Championship_Logo.svg.png",
-      "url": "https://ub2dr.envivoslatam.org/hotflix/foxsports/index.m3u8?token=d7c9deef29eeaf31da524de32b494754bd25b18a-43-1769311388-1769257388&ip=190.175.5.151"
-    }    
+    }      
   ]
 }
 
