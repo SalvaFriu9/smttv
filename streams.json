@@ -73,9 +73,9 @@
       "local": "Botafogo",
       "visitante": "Bango",
       "hora": "21:00",
-      "canal": "premiere_1",
-      "logo": "",
-      "url": "https://xky9q.envivoslatam.org/hotflix/disney6/index.m3u8?token=6d3e8859760be8da57c9ca81afe23b80cfbcca48-8c-1769311712-1769257712&ip=190.175.5.151"
+      "canal": "premiere1",
+      "logo": "https://i.imgur.com/s3ZYvRm.png",
+      "url": "https://pvtn5y.envivoslatam.org/hotflix/premiere1/index.m3u8?token=93f9ae16e4505dc2270ae0327be2599157195424-18-1769345580-1769291580&ip=190.175.5.151"
     },      
     {    
       "liga": "Bundesliga",
@@ -115,6 +115,7 @@
     }    
   ]
 }
+
 
 
 
