@@ -4,54 +4,55 @@
       "key": "tyc",
       "nombre": "TyC Sports",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/5/54/TyC_Sports_logo.svg",
-      "url": "https://rci1w.envivoslatam.org/hotflix/tycsports/index.m3u8?token=e77260a3fa05654f4b6b2302440219574338ab66-f7-1769311251-1769257251&ip=190.175.5.151"
+      "url": "https://ub2dr.envivoslatam.org/hotflix/tycsports/index.m3u8?token=c8181c41c716c46e44e3001ded0936e1b0f32984-9c-1769414823-1769360823&ip=190.175.5.151"
     },
     {
       "key": "dsports",
       "nombre": "DSports",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/5/5a/DSports.png",
-      "url": "https://smjt9q.envivoslatam.org/hotflix/dsports/index.m3u8?token=18707ceeb76c36cd972066a0970443852b593434-2f-1769311269-1769257269&ip=190.175.5.151"
+      "url": "https://wf6kt.envivoslatam.org/hotflix/dsports/index.m3u8?token=94567736452fa6961eac5f65a2262f06d69e9de4-83-1769414979-1769360979&ip=190.175.5.151"
     },
     {
       "key": "tnt",
       "nombre": "TNT Sports",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/f/f4/TNT_Sports_Premium_%28Argentina%29.png",
-      "url": "https://iaw5b.envivoslatam.org/hotflix/tntsports/index.m3u8?token=602d4c8729daac26df81337bc9d9f21f94e96832-9f-1769311351-1769257351&ip=190.175.5.151"
+      "url": "https://vg7ie.envivoslatam.org/hotflix/tntsports/index.m3u8?token=c377c1d9fcaa172c4eebeeb8fd0da72394c77e1f-d2-1769415044-1769361044&ip=190.175.5.151"
     },
     {
       "key": "fox",
       "nombre": "Fox Sports",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Fox_Sports_Argentina_2023.svg/500px-Fox_Sports_Argentina_2023.svg.png",
-      "url": "https://ub2dr.envivoslatam.org/hotflix/foxsports/index.m3u8?token=d7c9deef29eeaf31da524de32b494754bd25b18a-43-1769311388-1769257388&ip=190.175.5.151"
+      "url": "https://ub2dr.envivoslatam.org/hotflix/foxsports/index.m3u8?token=7dfd074c709eb5588349df48b1e8a79fee7210fe-94-1769415069-1769361069&ip=190.175.5.151"
     },
     {
       "key": "espnpremium",
       "nombre": "ESPN Premium",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/ESPN_Premium_logo.svg/1280px-ESPN_Premium_logo.svg.png?20220502034424",
-      "url": "https://lcrj3.envivoslatam.org/hotflix/espnpremium/index.m3u8?token=947c195a8118e95e81dcaca24e001339150551ce-29-1769311438-1769257438&ip=190.175.5.151"
+      "url": "https://ub2dr.envivoslatam.org/hotflix/espnpremium/index.m3u8?token=8f9894321f6baed56c2dd8646ae51e75b7af4be1-2d-1769415089-1769361089&ip=190.175.5.151"
     }
   ],
   "partidos": [
     {
-      "liga": "Liga Profesional de Futbol",
-      "local": "Rosario Central",
-      "visitante": "Belgrano de Cordoba",
-      "hora": "22:00",
-      "canal": "espnpremium",
-      "logo": "https://i.imgur.com/3P8nbWy.png",
-      "url": "https://lcrj3.envivoslatam.org/hotflix/espnpremium/index.m3u8?token=947c195a8118e95e81dcaca24e001339150551ce-29-1769311438-1769257438&ip=190.175.5.151"
-    },    
-    {    
-      "liga": "Campeonato Carioca",
-      "local": "Botafogo",
-      "visitante": "Bango",
-      "hora": "21:00",
-      "canal": "premiere1",
-      "logo": "https://i.imgur.com/s3ZYvRm.png",
-      "url": "https://pvtn5y.envivoslatam.org/hotflix/premiere1/index.m3u8?token=93f9ae16e4505dc2270ae0327be2599157195424-18-1769345580-1769291580&ip=190.175.5.151"
-    }      
+      "liga": "Campeonato Paulista A1",
+      "local": "Santos",
+      "visitante": "RB Bragantino",
+      "hora": "16:00",
+      "canal": "max4",
+      "logo": "https://upload.wikimedia.org/wikipedia/pt/1/1c/Paulist%C3%A3o_2026.png",
+      "url": "https://pvtn5y.envivoslatam.org/hotflix/max4/index.m3u8?token=38dde8c65eecacea16ca733331b86d11710cb59b-82-1769413098-1769359098&ip=190.175.5.151"
+    },     
+    {
+      "liga": "Serie A",
+      "local": "Roma",
+      "visitante": "Milan",
+      "hora": "16:45",
+      "canal": "espn2",
+      "logo": "https://i.imgur.com/wLustkw.png",
+      "url": "https://lcrj3.envivoslatam.org/hotflix/espn2/index.m3u8?token=946318cd07d89df7b70e9a86a78002634743fc1a-2b-1769416744-1769362744&ip=190.175.5.151"
+    }
   ]
 }
+
 
 
 
