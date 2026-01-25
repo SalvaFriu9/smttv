@@ -33,48 +33,48 @@
   ],
   "partidos": [
     {
-      "liga": "Serie A",
-      "local": "Como 1907",
-      "visitante": "Torino",
-      "hora": "11:00",
-      "canal": "foxdeportesusa",
-      "logo": "https://i.imgur.com/wLustkw.png",
-      "url": "https://xky9q.envivoslatam.org/hotflix/fox_deportes_usa/index.m3u8?token=c36e392e5bbddcece05b286d4d8719bd866a7a8a-16-1769309681-1769255681&ip=190.175.5.151"
+      "liga": "Liga Profesional de Futbol",
+      "local": "Gimnasia y Esgrima de la Plata",
+      "visitante": "Racing Club",
+      "hora": "19:30",
+      "canal": "tnt",
+      "logo": "https://i.imgur.com/3P8nbWy.png",
+      "url": "https://iaw5b.envivoslatam.org/hotflix/tntsports/index.m3u8?token=602d4c8729daac26df81337bc9d9f21f94e96832-9f-1769311351-1769257351&ip=190.175.5.151"
     },
     {    
-      "liga": "Bundesliga",
-      "local": "Heidenheim",
-      "visitante": "RB Leipzig",
-      "hora": "11:30",
-      "canal": "disney8",
-      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYoD4X1x58XgU0PMsewJXb8HbJ5yofILRBJt4zBDEMi_aC6mj83bzeNZCjevZfHG6DHlMwWX6RGiCdA_rSKmg5ruTgRqPlNUnwS0W10JyjY_SD4dlN34wfqJ5uXVX4r_1if3ncOu3SJdc/s1600/Bundesliga.png",
-      "url": "https://qbk4f.envivoslatam.org/hotflix/disney8/index.m3u8?token=ffed9d1b81a74720e4c50bcaa42fe60c0eae5d14-c2-1769310432-1769256432&ip=190.175.5.151"
+      "liga": "Liga Hondubet",
+      "local": "Juticalpa",
+      "visitante": "Choloma",
+      "hora": "20:15",
+      "canal": "deportestvc",
+      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFt5hwlcCeX7EqLeZb34Rz617jx1AkAeP9odonLI62RBYt4SxrF0RM2jQUV2si9uPzv0WdUokXUlfdLWcc2q2m1upTPXzHaxQGE_w1jO0aLE4GB7OtIx200UJAXhdSijbrVEArPxXry_hPsDnIxh4t4xwnntUxM7cH2hm15mLGvjJ4h3FkIQtd4NuM7AM/s16000/Liga%20Hondubet.png",
+      "url": "https://smjt9q.envivoslatam.org/hotflix/event2/index.m3u8?token=fc52b8920bd9006c7ddf8fcc180f710b8b6d713c-f2-1769343579-1769289579&ip=190.175.5.151"
     },
     {    
-      "liga": "Bundesliga",
-      "local": "Mainz 05",
-      "visitante": "Wolfsburg",
-      "hora": "11:30",
-      "canal": "disney9",
-      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYoD4X1x58XgU0PMsewJXb8HbJ5yofILRBJt4zBDEMi_aC6mj83bzeNZCjevZfHG6DHlMwWX6RGiCdA_rSKmg5ruTgRqPlNUnwS0W10JyjY_SD4dlN34wfqJ5uXVX4r_1if3ncOu3SJdc/s1600/Bundesliga.png",
-      "url": "https://yce5o.envivoslatam.org/hotflix/disney9/index.m3u8?token=9d38e00376ee7dc715b63450b6f19079b6ed2f1b-90-1769311555-1769257555&ip=190.175.5.151"
+      "liga": "Copa de Primera",
+      "local": "Cerro Porteño",
+      "visitante": "Libertad",
+      "hora": "20:15",
+      "canal": "tigosports",
+      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_g3ISlFQclPoSRzy7jEqhJE9kpJqOKRUCzP2qBZtWndEbN_iJxi1yGZZxIlM3iZc1Yd0MPIYO5t3QKwKTTW3KZGb9gA1AZ3wRfOFCvM3avikXyB_6bH2C61jFjciFnOpAe7Uws4rQaKN1zr9etDqKpJDJgzZQvOU-iFN3SEoJizjuzO_QH3Da9nFoEyg/s16000/Copa%20de%20Primera%20Tigo%20%E2%80%93%20ueno%20bank.png",
+      "url": "https://tk0hz.envivoslatam.org/hotflix/event3/index.m3u8?token=8c03ef98e13f28894b1726005209c9c07fb5993c-69-1769343927-1769289927&ip=190.175.5.151"
     },
     {    
-      "liga": "Bundesliga",
-      "local": "Bayern Leverkusen",
-      "visitante": "Werder Bremen",
-      "hora": "11:30",
-      "canal": "espn2",
-      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYoD4X1x58XgU0PMsewJXb8HbJ5yofILRBJt4zBDEMi_aC6mj83bzeNZCjevZfHG6DHlMwWX6RGiCdA_rSKmg5ruTgRqPlNUnwS0W10JyjY_SD4dlN34wfqJ5uXVX4r_1if3ncOu3SJdc/s1600/Bundesliga.png",
-      "url": "https://vg7ie.envivoslatam.org/hotflix/espn2/index.m3u8?token=61891bb6f9d2dc4a2eadd5d8f0fe16764a7d60ba-fb-1769311627-1769257627&ip=190.175.5.151"
+      "liga": "Liga Betplay Dimayor",
+      "local": "Deportivo Cali",
+      "visitante": "Independiente de Medellin",
+      "hora": "20:20",
+      "canal": "winplus",
+      "logo": "https://a.espncdn.com/combiner/i?img=%2Fi%2Fleaguelogos%2Fsoccer%2F500%2F1543.png",
+      "url": "https://iaw5b.envivoslatam.org/hotflix/winplus/index.m3u8?token=c3f8e048135706bcafeca465dba07808d5e9d4de-af-1769344058-1769290058&ip=190.175.5.151"
     },    
     {    
-      "liga": "Bundesliga",
-      "local": "Bayern Munchen",
-      "visitante": "Augsburg",
-      "hora": "11:30",
-      "canal": "disney6",
-      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYoD4X1x58XgU0PMsewJXb8HbJ5yofILRBJt4zBDEMi_aC6mj83bzeNZCjevZfHG6DHlMwWX6RGiCdA_rSKmg5ruTgRqPlNUnwS0W10JyjY_SD4dlN34wfqJ5uXVX4r_1if3ncOu3SJdc/s1600/Bundesliga.png",
+      "liga": "Campeonato Carioca",
+      "local": "Botafogo",
+      "visitante": "Bango",
+      "hora": "21:00",
+      "canal": "premiere_1",
+      "logo": "",
       "url": "https://xky9q.envivoslatam.org/hotflix/disney6/index.m3u8?token=6d3e8859760be8da57c9ca81afe23b80cfbcca48-8c-1769311712-1769257712&ip=190.175.5.151"
     },      
     {    
@@ -115,6 +115,7 @@
     }    
   ]
 }
+
 
 
 
