@@ -73,16 +73,16 @@
       "local": "Norwich City",
       "visitante": "Coventry City",
       "hora": "17:00",
-      "canal": "fox",
+      "canal": "espn5",
       "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/EFL_Championship_Logo.svg/960px-EFL_Championship_Logo.svg.png",
-      "url": "https://ub2dr.envivoslatam.org/hotflix/foxsports/index.m3u8?token=d7c9deef29eeaf31da524de32b494754bd25b18a-43-1769311388-1769257388&ip=190.175.5.151"
+      "url": "https://ub2dr.envivoslatam.org/hotflix/espn5/index.m3u8?token=3076b8a133ef07778513457feeec0a4a67e89f02-35-1769502485-1769448485&ip=190.175.5.151"
     },
     {
       "liga": "Liga Profesional de Futbol",
       "local": "Platense",
       "visitante": "Instituto",
       "hora": "17:00",
-      "canal": "tnt",
+      "canal": "espnpremium",
       "logo": "https://i.imgur.com/3P8nbWy.png",
       "url": "https://xky9q.envivoslatam.org/hotflix/espnpremium/index.m3u8?token=54f2eeeac16398c878922db60b28b697cad7cbc5-2f-1769493859-1769439859&ip=190.175.5.151"
     },
@@ -93,7 +93,7 @@
       "hora": "22:00",
       "canal": "winplus",
       "logo": "https://a.espncdn.com/combiner/i?img=%2Fi%2Fleaguelogos%2Fsoccer%2F500%2F1543.png",
-      "url": "https://iaw5b.envivoslatam.org/hotflix/winplus/index.m3u8?token=c3f8e048135706bcafeca465dba07808d5e9d4de-af-1769344058-1769290058&ip=190.175.5.151"
+      "url": "https://ub2dr.envivoslatam.org/hotflix/winplus/index.m3u8?token=0c1fe58e3be11ccca2d7fb7b2807bf59e6ce2d77-58-1769502679-1769448679&ip=190.175.5.151"
     },
     {    
       "liga": "Liga Hondubet",
@@ -106,6 +106,7 @@
     }    
   ]
 }
+
 
 
 
