@@ -32,51 +32,6 @@
     }
   ],
   "partidos": [
-    {
-      "liga": "Serie A",
-      "local": "Verona",
-      "visitante": "Udinese",
-      "hora": "16:45",
-      "canal": "foxdeportesusa",
-      "logo": "https://i.imgur.com/wLustkw.png",
-      "url": "https://qbk4f.envivoslatam.org/hotflix/fox_deportes_usa/index.m3u8?token=b0b875135361256d14927f55319e47b07e51607f-91-1769494003-1769440003&ip=190.175.5.151"
-    },
-    {
-      "liga": "La Liga",
-      "local": "Girona",
-      "visitante": "Getafe",
-      "hora": "17:00",
-      "canal": "espn3",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/LaLiga_logo_2023.svg/960px-LaLiga_logo_2023.svg.png",
-      "url": "https://j8nte.envivoslatam.org/hotflix/espn3/index.m3u8?token=d0c4553a9e7fc50f3cb62eb4cd289b44fb62cae6-ce-1769498226-1769444226&ip=190.175.5.151"
-    },
-    {    
-      "liga": "Premier League",
-      "local": "Everton",
-      "visitante": "Leeds United",
-      "hora": "17:00",
-      "canal": "espn2",
-      "logo": "https://i.imgur.com/1qyJTez.png",
-      "url": "https://lcrj3.envivoslatam.org/hotflix/espn2/index.m3u8?token=67681bb0d73ec8c2b3b2d51b7c74674a6f6139c1-eb-1769498260-1769444260&ip=190.175.5.151"
-    },
-    {    
-      "liga": "EFL Championship",
-      "local": "Norwich City",
-      "visitante": "Coventry City",
-      "hora": "17:00",
-      "canal": "espn5",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/EFL_Championship_Logo.svg/960px-EFL_Championship_Logo.svg.png",
-      "url": "https://ub2dr.envivoslatam.org/hotflix/espn5/index.m3u8?token=3076b8a133ef07778513457feeec0a4a67e89f02-35-1769502485-1769448485&ip=190.175.5.151"
-    },
-    {
-      "liga": "Liga Profesional de Futbol",
-      "local": "Platense",
-      "visitante": "Instituto",
-      "hora": "17:00",
-      "canal": "espnpremium",
-      "logo": "https://i.imgur.com/3P8nbWy.png",
-      "url": "https://xky9q.envivoslatam.org/hotflix/espnpremium/index.m3u8?token=54f2eeeac16398c878922db60b28b697cad7cbc5-2f-1769493859-1769439859&ip=190.175.5.151"
-    },
     {    
       "liga": "Liga Betplay Dimayor",
       "local": "Atletico Nacional",
@@ -97,6 +52,7 @@
     }    
   ]
 }
+
 
 
 
