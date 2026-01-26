@@ -33,15 +33,6 @@
   ],
   "partidos": [
     {
-      "liga": "Liga Profesional Saudí",
-      "local": "Al Nassr",
-      "visitante": "Al Tawoon",
-      "hora": "14:30",
-      "canal": "foxdeportesusa",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/4/42/Saudi_Pro_League_Logo.svg",
-      "url": "https://qbk4f.envivoslatam.org/hotflix/fox_deportes_usa/index.m3u8?token=b0b875135361256d14927f55319e47b07e51607f-91-1769494003-1769440003&ip=190.175.5.151"
-    }, 
-    {
       "liga": "Serie A",
       "local": "Verona",
       "visitante": "Udinese",
@@ -106,6 +97,7 @@
     }    
   ]
 }
+
 
 
 
