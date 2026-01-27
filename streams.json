@@ -32,35 +32,36 @@
     }
   ],
   "partidos": [
-    {    
-      "liga": "Bundesliga",
-      "local": "St. Pauli",
-      "visitante": "RB Leipzig",
-      "hora": "16:30",
-      "canal": "disney1",
-      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYoD4X1x58XgU0PMsewJXb8HbJ5yofILRBJt4zBDEMi_aC6mj83bzeNZCjevZfHG6DHlMwWX6RGiCdA_rSKmg5ruTgRqPlNUnwS0W10JyjY_SD4dlN34wfqJ5uXVX4r_1if3ncOu3SJdc/s1600/Bundesliga.png",
-      "url": "https://iaw5b.envivoslatam.org/hotflix/disney1/index.m3u8?token=67273c5df4ecc26c9eb45450281e8dc94534b28e-4c-1769583084-1769529084&ip=190.175.30.26"
+    {
+      "liga": "Liga Profesional de Futbol",
+      "local": "Velez Sarsfield",
+      "visitante": "Talleres de Cordoba",
+      "hora": "17:45",
+      "canal": "espn",
+      "logo": "https://i.imgur.com/3P8nbWy.png",
+      "url": "https://j8nte.envivoslatam.org/hotflix/espnpremium/index.m3u8?token=1e710009b96c62747902297f60393cadb520d846-61-1769596412-1769542412&ip=190.175.30.26"
     },
     {    
-      "liga": "Bundesliga",
-      "local": "Werder Bremen",
-      "visitante": "Hoffenheim",
-      "hora": "16:30",
-      "canal": "disney2",
-      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYoD4X1x58XgU0PMsewJXb8HbJ5yofILRBJt4zBDEMi_aC6mj83bzeNZCjevZfHG6DHlMwWX6RGiCdA_rSKmg5ruTgRqPlNUnwS0W10JyjY_SD4dlN34wfqJ5uXVX4r_1if3ncOu3SJdc/s1600/Bundesliga.png",
-      "url": "https://iaw5b.envivoslatam.org/hotflix/disney2/index.m3u8?token=801b477921caa8bd785a353b92d6e6cc5d2c2331-e6-1769583108-1769529108&ip=190.175.30.26"
+      "liga": "Liga Betplay Dimayor",
+      "local": "Cucuta Deportivo",
+      "visitante": "Atletico Bucaramanga",
+      "hora": "18:00",
+      "canal": "winplus",
+      "logo": "https://a.espncdn.com/combiner/i?img=%2Fi%2Fleaguelogos%2Fsoccer%2F500%2F1543.png",
+      "url": "https://ng0pr.envivoslatam.org/hotflix/winplus/index.m3u8?token=69fc0a9071a5edd88a40fad90bb0592593216bc6-d2-1769596435-1769542435&ip=190.175.30.26"
     },
     {    
-      "liga": "Coppa Italia",
-      "local": "Fiorentina",
-      "visitante": "Como",
-      "hora": "17:00",
-      "canal": "dsports",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Coppa_Italia_Frecciarossa_%282021-2022%29.png",
-      "url": "https://j8nte.envivoslatam.org/hotflix/dsports/index.m3u8?token=0dc8357cfe8ab0dd0a7b98fd7343ee65a141b169-8e-1769583210-1769529210&ip=190.175.30.26"
-    }     
+      "liga": "Copa de Primera",
+      "local": "Sportivo Luqueño",
+      "visitante": "Nacional Asuncion",
+      "hora": "18:00",
+      "canal": "tigosports",
+      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_g3ISlFQclPoSRzy7jEqhJE9kpJqOKRUCzP2qBZtWndEbN_iJxi1yGZZxIlM3iZc1Yd0MPIYO5t3QKwKTTW3KZGb9gA1AZ3wRfOFCvM3avikXyB_6bH2C61jFjciFnOpAe7Uws4rQaKN1zr9etDqKpJDJgzZQvOU-iFN3SEoJizjuzO_QH3Da9nFoEyg/s16000/Copa%20de%20Primera%20Tigo%20%E2%80%93%20ueno%20bank.png",
+      "url": "https://smjt9q.envivoslatam.org/hotflix/event4/index.m3u8?token=ec67ce15d2d5df5d0a4e1d77e23dd014a150c78c-c9-1769596589-1769542589&ip=190.175.30.26"
+    }    
   ]
 }
+
 
 
 
